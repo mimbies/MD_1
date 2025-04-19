@@ -12,21 +12,14 @@ public class PlayerMovement : MonoBehaviour
     Vector2 movement;
     Vector2 inputVector;
     Vector2 inputVelo;
-    bool pause;
+    
 
     //sound
-    [SerializeField] private AudioSource aua1;
-    [SerializeField] private AudioSource aua2;
+
 
 
     //FLasher
 
-    [SerializeField] private Material flashMaterial;
-
-    [SerializeField] private float duration;
-    private SpriteRenderer spriteRenderer;
-    private Material originalMaterial;
-    private Coroutine flashRoutine;
 
 
     //kamera
@@ -38,7 +31,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] float healt, maxhealth = 3f;
 
     //animation 
-    private Animator anim;
+
 
 
 
@@ -50,11 +43,7 @@ public class PlayerMovement : MonoBehaviour
     }
     private void Start()
     {
-        //flasher 
-        spriteRenderer = GetComponent<SpriteRenderer>();
-        originalMaterial = spriteRenderer.material;
 
-        anim = GetComponent<Animator>();
         healt = maxhealth;
     }
 
@@ -129,44 +118,19 @@ public class PlayerMovement : MonoBehaviour
         if (collision.gameObject.TryGetComponent<PlayerMovement>(out PlayerMovement enemyComponent))
         {
             enemyComponent.takeDamage(1);
-            Flash();
+            
         }
 
     }
     public void takeDamage(float schaden)
     {
-        healt -= schaden;
-        Flash();
-        aua1.Play();
-        aua2.Play();
+
+        
 
 
 
-        if (healt <= 0)
-        {
-            //ScoreScript.scoreValue = 0;
-            Destroy(gameObject);
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-
-          
-        }
-    }
-    public void Flash()
-    {
-
-        if (flashRoutine != null)
-        {
-            StopCoroutine(flashRoutine);
-        }
-
-        flashRoutine = StartCoroutine(FlashRoutine());
     }
 
-    private IEnumerator FlashRoutine()
-    {
-        spriteRenderer.material = flashMaterial;
-        yield return new WaitForSeconds(duration);
-        spriteRenderer.material = originalMaterial;
-        flashRoutine = null;
-    }
+
+
 }

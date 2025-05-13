@@ -8,11 +8,13 @@ public class ConversationStarter : MonoBehaviour
 
     [SerializeField] private NPCConversation myConvo;
     // Start is called before the first frame update
-    void Start()
-    {
-        ConversationManager.Instance.StartConversation(myConvo);
+    public void Start()
+    { ConversationManager.Instance.StartConversation(myConvo); }
 
-    }
+
+
+
+
 
 
 }

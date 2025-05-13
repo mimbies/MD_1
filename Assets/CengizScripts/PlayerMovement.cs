@@ -12,7 +12,7 @@ public class PlayerMovement : MonoBehaviour
     Vector2 movement;
     Vector2 inputVector;
     Vector2 inputVelo;
-    
+
 
     //sound
 
@@ -51,6 +51,7 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        
 
 
         //movement
@@ -90,12 +91,12 @@ public class PlayerMovement : MonoBehaviour
         Physics2D.IgnoreLayerCollision(2, 4);
         //animation x achse Normal
 
-    
+
 
 
 
         inputVector = Vector2.SmoothDamp(inputVector, movement, ref inputVelo, smoothspeed);
-        rb.velocity = new Vector2(inputVector.x * moveSpeed, inputVector.y* moveSpeed);
+        rb.velocity = new Vector2(inputVector.x * moveSpeed, inputVector.y * moveSpeed);
 
         //kamera
         //Vector2 lookDir = mousePos - rb.position;
@@ -118,14 +119,18 @@ public class PlayerMovement : MonoBehaviour
         if (collision.gameObject.TryGetComponent<PlayerMovement>(out PlayerMovement enemyComponent))
         {
             enemyComponent.takeDamage(1);
-            
+
         }
 
+
+
     }
+
+    
     public void takeDamage(float schaden)
     {
 
-        
+
 
 
 

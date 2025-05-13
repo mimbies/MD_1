@@ -20,6 +20,12 @@ public class LampBrightness : MonoBehaviour
       lampLight.color = new Color(101, 167, 226);
    }*/
 
+   public void decreaseRadius()
+   {
+      lampLight.pointLightInnerRadius = 0;
+      lampLight.pointLightOuterRadius = 6.5f;
+   }
+
 
    public void increaseIntensity()
    {

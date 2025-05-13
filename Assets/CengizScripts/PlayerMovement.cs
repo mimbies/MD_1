@@ -30,8 +30,9 @@ public class PlayerMovement : MonoBehaviour
     //leben
     [SerializeField] float healt, maxhealth = 3f;
 
-    //animation 
-
+    //animation
+    public bool isWalking;
+    private Animator anim;
 
 
 
@@ -45,6 +46,8 @@ public class PlayerMovement : MonoBehaviour
     {
 
         healt = maxhealth;
+
+        anim = GetComponent<Animator>();
     }
 
 
@@ -80,8 +83,13 @@ public class PlayerMovement : MonoBehaviour
 
 
 
+        //animation
+        if(movement.magnitude != 0)
+        {
+            GetComponent<SpriteRenderer>().flipX = movex < 0;
+        }
 
-
+        anim.SetBool("isWalking", movement.magnitude > 0);
     }
 
 

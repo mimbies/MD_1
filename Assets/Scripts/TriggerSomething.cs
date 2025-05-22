@@ -15,7 +15,7 @@ public class TriggerSomething : MonoBehaviour
     {
         if (other.tag == "Player")
         {
-            Debug.Log("Entered Lamp Brightness Trigger Zone");
+            Debug.Log("Entered Trigger Zone");
             ConversationManager.Instance.StartConversation(myConvo);
         }
 
@@ -28,7 +28,7 @@ public class TriggerSomething : MonoBehaviour
     {
         if (other.tag == "Player" && this.gameObject.tag != "Tip")
         {
-            Debug.Log("Left Lamp Brightness Trigger Zone");
+            Debug.Log("Left Trigger Zone");
             Destroy(this.gameObject);
         }
 

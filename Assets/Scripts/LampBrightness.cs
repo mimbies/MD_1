@@ -9,6 +9,10 @@ public class LampBrightness : MonoBehaviour
    public Light2D lampLight;
    //FFAD66
 
+   public ParticleSystem ps;
+
+
+
 
    public void decreaseIntensity()
    {
@@ -30,5 +34,11 @@ public class LampBrightness : MonoBehaviour
    public void increaseIntensity()
    {
       lampLight.intensity = 3;
+   }
+
+   public void increaseParticles()
+   {
+      var psEmission = ps.emission;
+      psEmission.rateOverTime = 1000;
    }
 }

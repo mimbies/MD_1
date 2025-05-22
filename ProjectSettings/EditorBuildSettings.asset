@@ -5,13 +5,19 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/CONVERSATION COPY PASTE.unity
     guid: df5178db90bba3d469ab3804abbd9989
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Flappy Witch.unity
     guid: 13ee9d1c63843c04cb8c2f0668cf09a6
+  - enabled: 1
+    path: Assets/Scenes/MimmieScene.unity
+    guid: 2f84d0e35cfe4524bbec698126b332aa
+  - enabled: 0
+    path: Assets/Scenes/Dialogue System.unity
+    guid: 4e7f25b0e9890724eaa61e07d6a4bf76
   m_configObjects: {}

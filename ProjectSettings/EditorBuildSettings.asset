@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Dialogue System.unity
     guid: 4e7f25b0e9890724eaa61e07d6a4bf76
+  - enabled: 0
+    path: Assets/Scenes/Menu.unity
+    guid: ad58f0504a2e4104f8cd8395f835fe94
   m_configObjects: {}

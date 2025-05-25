@@ -6,21 +6,32 @@ using UnityEngine.UI;
 
 public class MainMenu : MonoBehaviour
 {
-    /*public Button exitButton;
+    public Button exitButton;
     public Button startButton;
     public Button creditsButton;
-    public Button skipButton;*/
+
 
     public void exitGame()
     {
         Application.Quit();
         Debug.Log("QUIT");
     }
+    public void startGame()
+    {
+        SceneManager.LoadScene(0);
+    }
 
     public void loadForestScene()
     {
         SceneManager.LoadScene(1);
     }
+
+    /*
+    public void credits()
+    {
+        SceneManager.LoadScene(10);
+    }
+    */
 
 
 

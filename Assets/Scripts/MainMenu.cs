@@ -23,15 +23,20 @@ public class MainMenu : MonoBehaviour
 
     public void loadForestScene()
     {
+        SceneManager.LoadScene(3);
+    }
+
+
+    public void credits()
+    {
+        SceneManager.LoadScene(2);
+    }
+
+    public void backToMenu()
+    {
         SceneManager.LoadScene(1);
     }
 
-    /*
-    public void credits()
-    {
-        SceneManager.LoadScene(10);
-    }
-    */
 
 
 

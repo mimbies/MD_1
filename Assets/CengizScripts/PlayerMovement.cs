@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using DialogueEditor;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -54,9 +55,14 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (ConversationManager.Instance.IsConversationActive)
+        {
+            movement = Vector2.zero;
+            anim.enabled = false;
+            return;
+        }
 
-
+        anim.enabled = true;
         //movement
         float movex = Input.GetAxisRaw("Horizontal");
         float movey = Input.GetAxisRaw("Vertical");

@@ -380,6 +380,7 @@ namespace DialogueEditor
         {
             m_stateTime += Time.deltaTime;
 
+            // 1) Automatisches Weiter
             if (m_currentSpeech.AutomaticallyAdvance)
             {
                 if (m_currentSpeech.ConnectionType == Connection.eConnectionType.None || m_currentSpeech.ConnectionType == Connection.eConnectionType.Speech)
@@ -387,9 +388,71 @@ namespace DialogueEditor
                     if (m_stateTime > m_currentSpeech.TimeUntilAdvance)
                     {
                         SetState(eState.TransitioningOptionsOff);
+                        return; // Early exit, damit Input in diesem Frame nicht mehr abgefragt wird
                     }
                 }
             }
+
+            // 2) Manueller Input (Enter + Navigation)
+            if (!AllowMouseInteraction) return;
+
+            if (Input.GetKeyDown(KeyCode.Return))
+            {
+                TryHandleEnterPress();
+            }
+
+            if (m_uiOptions.Count > 0)
+            {
+                if (Input.GetKeyDown(KeyCode.UpArrow))
+                {
+                    NavigateOptions(-1);
+                }
+                else if (Input.GetKeyDown(KeyCode.DownArrow))
+                {
+                    NavigateOptions(1);
+                }
+            }
+        }
+        
+        private void TryHandleEnterPress()
+        {
+            if (m_uiOptions.Count > 0)
+            {
+                // Es gibt Optionen, also nur bestätigen wenn eine Option gewählt wurde
+                if (m_currentSelectedIndex >= 0 && m_currentSelectedIndex < m_uiOptions.Count)
+                {
+                    PressSelectedOption();
+                }
+                // Wenn keine Option gewählt wurde, mach nichts bei Enter
+            }
+            else if (m_currentSpeech != null)
+            {
+                // Keine Optionen, einfach nächsten SpeechNode holen und anzeigen
+                SpeechNode nextSpeech = GetValidSpeechOfNode(m_currentSpeech);
+
+                if (nextSpeech == null)
+                {
+                    EndConversation();
+                }
+                else
+                {
+                    SetupSpeech(nextSpeech);
+                }
+            }
+        }
+
+
+        private void NavigateOptions(int direction)
+        {
+            if (m_uiOptions.Count == 0) return;
+
+            int newIndex = m_currentSelectedIndex + direction;
+
+            // Wrap-around
+            if (newIndex < 0) newIndex = m_uiOptions.Count - 1;
+            if (newIndex >= m_uiOptions.Count) newIndex = 0;
+
+            SetSelectedOption(newIndex);
         }
 
         private void TransitionOptionsOff_Update()
@@ -604,25 +667,24 @@ namespace DialogueEditor
         }
 
         /// <summary> Returns the first, valid child connection to a Speech Node. </summary>
-        private SpeechNode GetValidSpeechOfNode(ConversationNode parentNode)
+        private SpeechNode GetValidSpeechOfNode(ConversationNode node)
         {
-            if (parentNode.ConnectionType != Connection.eConnectionType.Speech) { return null; }
-            if (parentNode.Connections.Count == 0) { return null; }
+            if (node == null) return null;
+            if (node.Connections == null || node.Connections.Count == 0) return null;
 
-            // Loop through connections, until a valid connection is found.
-            for (int i = 0; i < parentNode.Connections.Count; i++)
+            for (int i = 0; i < node.Connections.Count; i++)
             {
-                SpeechConnection connection = parentNode.Connections[i] as SpeechConnection;
-                bool conditionsMet = ConditionsMet(connection);
+                SpeechConnection connection = node.Connections[i] as SpeechConnection;
+                if (connection == null) continue;
 
-                if (conditionsMet)
+                if (ConditionsMet(connection))
                 {
                     return connection.SpeechNode;
                 }
             }
-
             return null;
         }
+
 
         private void TurnOnUI()
         {

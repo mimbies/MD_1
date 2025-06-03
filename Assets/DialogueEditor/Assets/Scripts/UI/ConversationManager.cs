@@ -340,6 +340,14 @@ namespace DialogueEditor
 
         private void ScrollingText_Update()
         {
+            // Skips text scroll
+            if (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.Return))
+            {
+                DialogueText.maxVisibleCharacters = m_targetScrollTextCount;
+                SetState(eState.TransitioningOptionsOn);
+                return;
+            }
+
             const float charactersPerSecond = 1500;
             float timePerChar = (60.0f / charactersPerSecond);
             timePerChar *= ScrollSpeed;
@@ -396,7 +404,7 @@ namespace DialogueEditor
             // 2) Manueller Input (Enter + Navigation)
             if (!AllowMouseInteraction) return;
 
-            if (Input.GetKeyDown(KeyCode.Return))
+            if (Input.GetKeyDown(KeyCode.Return) || Input.GetKeyDown(KeyCode.Space))
             {
                 TryHandleEnterPress();
             }

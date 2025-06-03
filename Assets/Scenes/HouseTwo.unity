@@ -1068,15 +1068,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CurrentIDCounter: 41
-  json: '{"Options":[{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":30}],"EditorInfo":{"isRoot":false,"xPos":459,"yPos":-1047},"ID":29,"ParamActions":[],"TMPFontGUID":null,"Text":"*sigh*","parentUIDs":[0],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":34}],"EditorInfo":{"isRoot":false,"xPos":470,"yPos":-505},"ID":33,"ParamActions":[],"TMPFontGUID":null,"Text":"...","parentUIDs":[32],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":38}],"EditorInfo":{"isRoot":false,"xPos":480,"yPos":-76},"ID":37,"ParamActions":[],"TMPFontGUID":null,"Text":"...","parentUIDs":[36],"SpeechUID":-1}],"Parameters":[],"SpeechNodes":[{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":29}],"EditorInfo":{"isRoot":true,"xPos":452.5,"yPos":-1159},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"...","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Enola","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":31}],"EditorInfo":{"isRoot":false,"xPos":473,"yPos":-851},"ID":28,"ParamActions":[],"TMPFontGUID":null,"Text":"*meow*","parentUIDs":[30],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Kitty","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0.205},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":28}],"EditorInfo":{"isRoot":false,"xPos":457,"yPos":-954},"ID":30,"ParamActions":[],"TMPFontGUID":null,"Text":"Ugh!
-    I definitely, absolutely, undoubtedly was too mean to Skye just now, wasn''t
-    I?","parentUIDs":[29],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Enola","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":32}],"EditorInfo":{"isRoot":false,"xPos":474,"yPos":-740},"ID":31,"ParamActions":[],"TMPFontGUID":null,"Text":"Yeah,
-    you have it easy. You don''t have to talk to people","parentUIDs":[28],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Enola","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":33}],"EditorInfo":{"isRoot":false,"xPos":473,"yPos":-610},"ID":32,"ParamActions":[],"TMPFontGUID":null,"Text":"But
-    she *was* trespassing. I was allowed to be a little mean.","parentUIDs":[31],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Enola","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":35}],"EditorInfo":{"isRoot":false,"xPos":474,"yPos":-415},"ID":34,"ParamActions":[],"TMPFontGUID":null,"Text":"I''m
-    so bad at this. No wonder I have.. no one.","parentUIDs":[33],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Enola","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":36}],"EditorInfo":{"isRoot":false,"xPos":475,"yPos":-311},"ID":35,"ParamActions":[],"TMPFontGUID":null,"Text":"*meow*","parentUIDs":[34],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Kitty","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0.319},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":37}],"EditorInfo":{"isRoot":false,"xPos":475,"yPos":-203},"ID":36,"ParamActions":[],"TMPFontGUID":null,"Text":"Except
-    you, of course.","parentUIDs":[35],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Enola","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":39}],"EditorInfo":{"isRoot":false,"xPos":481,"yPos":-9},"ID":38,"ParamActions":[],"TMPFontGUID":null,"Text":"Sometimes
-    I wish I wasn''t so scared. I didn''t mean to be that cold to Skye.","parentUIDs":[37],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Enola","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":40}],"EditorInfo":{"isRoot":false,"xPos":492,"yPos":117},"ID":39,"ParamActions":[],"TMPFontGUID":null,"Text":"Maybe
-    I should apologize next time I see her...\n","parentUIDs":[38],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Enola","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":490,"yPos":222},"ID":40,"ParamActions":[],"TMPFontGUID":null,"Text":"If.
+  json: '{"Options":[{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":30}],"EditorInfo":{"isRoot":false,"xPos":405,"yPos":-659},"ID":29,"ParamActions":[],"TMPFontGUID":null,"Text":"*sigh*","parentUIDs":[0],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":34}],"EditorInfo":{"isRoot":false,"xPos":416,"yPos":-117},"ID":33,"ParamActions":[],"TMPFontGUID":null,"Text":"...","parentUIDs":[32],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":38}],"EditorInfo":{"isRoot":false,"xPos":426,"yPos":312},"ID":37,"ParamActions":[],"TMPFontGUID":null,"Text":"...","parentUIDs":[36],"SpeechUID":-1}],"Parameters":[],"SpeechNodes":[{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":29}],"EditorInfo":{"isRoot":true,"xPos":398.5,"yPos":-771},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"...","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Enola","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":31}],"EditorInfo":{"isRoot":false,"xPos":419,"yPos":-463},"ID":28,"ParamActions":[],"TMPFontGUID":null,"Text":"*meow*","parentUIDs":[30],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Kitty","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0.205},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":28}],"EditorInfo":{"isRoot":false,"xPos":403,"yPos":-567},"ID":30,"ParamActions":[],"TMPFontGUID":null,"Text":"Ugh!
+    I definitely was too mean to Skye just now, wasn''t I?","parentUIDs":[29],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Enola","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":32}],"EditorInfo":{"isRoot":false,"xPos":420,"yPos":-352},"ID":31,"ParamActions":[],"TMPFontGUID":null,"Text":"Yeah,
+    you have it easy. You don''t have to talk to people.","parentUIDs":[28],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Enola","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":33}],"EditorInfo":{"isRoot":false,"xPos":419,"yPos":-222},"ID":32,"ParamActions":[],"TMPFontGUID":null,"Text":"But
+    she *was* trespassing. I was allowed to be a little mean.","parentUIDs":[31],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Enola","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":35}],"EditorInfo":{"isRoot":false,"xPos":420,"yPos":-28},"ID":34,"ParamActions":[],"TMPFontGUID":null,"Text":"I''m
+    so bad at this. No wonder I have.. no one.","parentUIDs":[33],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Enola","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":36}],"EditorInfo":{"isRoot":false,"xPos":421,"yPos":77},"ID":35,"ParamActions":[],"TMPFontGUID":null,"Text":"*meow*","parentUIDs":[34],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Kitty","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0.319},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":37}],"EditorInfo":{"isRoot":false,"xPos":421,"yPos":185},"ID":36,"ParamActions":[],"TMPFontGUID":null,"Text":"Except
+    you, of course.","parentUIDs":[35],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Enola","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":39}],"EditorInfo":{"isRoot":false,"xPos":427,"yPos":379},"ID":38,"ParamActions":[],"TMPFontGUID":null,"Text":"Sometimes
+    I wish I wasn''t so scared. I didn''t mean to be that cold to Skye.","parentUIDs":[37],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Enola","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":40}],"EditorInfo":{"isRoot":false,"xPos":438,"yPos":505},"ID":39,"ParamActions":[],"TMPFontGUID":null,"Text":"Maybe
+    I should apologize next time I see her...\n","parentUIDs":[38],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Enola","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":436,"yPos":610},"ID":40,"ParamActions":[],"TMPFontGUID":null,"Text":"If.
     If I see her again. Speaking of, I should check out where to get my next ingredient..","parentUIDs":[39],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Enola","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0}]}'
   saveVersion: 110
   DefaultName: Enola
@@ -1449,6 +1448,7 @@ GameObject:
   m_Component:
   - component: {fileID: 259392834}
   - component: {fileID: 259392835}
+  - component: {fileID: 259392836}
   m_Layer: 0
   m_Name: misc_65
   m_TagString: Untagged
@@ -1523,6 +1523,29 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!68 &259392836
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 259392833}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -0.22056869, y: 0.030141773}
+  - {x: -0.0037685186, y: -0.12917945}
+  - {x: 0.13875255, y: -0.043059807}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0
 --- !u!1 &276100172
 GameObject:
   m_ObjectHideFlags: 0
@@ -1533,6 +1556,7 @@ GameObject:
   m_Component:
   - component: {fileID: 276100173}
   - component: {fileID: 276100174}
+  - component: {fileID: 276100175}
   m_Layer: 0
   m_Name: furniture_11
   m_TagString: Untagged
@@ -1607,6 +1631,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!64 &276100175
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 276100172}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
 --- !u!1 &283208997
 GameObject:
   m_ObjectHideFlags: 0
@@ -1781,6 +1819,7 @@ GameObject:
   m_Component:
   - component: {fileID: 310307628}
   - component: {fileID: 310307629}
+  - component: {fileID: 310307630}
   m_Layer: 0
   m_Name: furniture_29
   m_TagString: Untagged
@@ -1855,6 +1894,35 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!68 &310307630
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 310307627}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -0.2387385, y: -0.17116266}
+  - {x: -0.34271884, y: -0.0495584}
+  - {x: -0.36045617, y: 0.051682353}
+  - {x: 0.07528061, y: 0.25835884}
+  - {x: 0.34758335, y: 0.12291208}
+  - {x: 0.34731197, y: 0.043524206}
+  - {x: 0.27192143, y: -0.091539145}
+  - {x: -0.041813254, y: -0.25749737}
+  - {x: -0.25214314, y: -0.16793323}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0
 --- !u!1 &385369302
 GameObject:
   m_ObjectHideFlags: 0
@@ -1865,6 +1933,7 @@ GameObject:
   m_Component:
   - component: {fileID: 385369303}
   - component: {fileID: 385369304}
+  - component: {fileID: 385369305}
   m_Layer: 0
   m_Name: furniture_23
   m_TagString: Untagged
@@ -1927,7 +1996,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 10
+  m_SortingOrder: 3
   m_Sprite: {fileID: -1425892732, guid: 3812566c1f13d76419494e700d6513be, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1939,6 +2008,36 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!68 &385369305
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 385369302}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -0.32552433, y: 0.34878436}
+  - {x: -0.44401518, y: 0.1859891}
+  - {x: -0.36599302, y: 0.10619195}
+  - {x: -0.38185433, y: 0.063020736}
+  - {x: -0.3210316, y: -0.012314618}
+  - {x: -0.30472398, y: -0.24700977}
+  - {x: -0.14962715, y: -0.31648946}
+  - {x: -0.12187302, y: -0.2981913}
+  - {x: -0.035976708, y: -0.3544863}
+  - {x: 0.302918, y: -0.16147426}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0
 --- !u!1 &434172753
 GameObject:
   m_ObjectHideFlags: 0
@@ -3631,7 +3730,11 @@ EdgeCollider2D:
   m_Offset: {x: 0, y: 0}
   m_EdgeRadius: 0
   m_Points:
-  - {x: -0.90336204, y: -0.49782714}
+  - {x: 0.91933215, y: -0.43263373}
+  - {x: 0.90035766, y: -0.52780753}
+  - {x: -0.04841123, y: -1.0003409}
+  - {x: -0.88578796, y: -0.5856467}
+  - {x: -0.89596087, y: -0.52617276}
   - {x: 0.046979975, y: -0.046492502}
   - {x: 0.09448608, y: -0.027109373}
   - {x: 0.9169397, y: -0.43375036}
@@ -3901,6 +4004,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1059111115}
   - component: {fileID: 1059111116}
+  - component: {fileID: 1059111117}
   m_Layer: 0
   m_Name: furniture_2
   m_TagString: Untagged
@@ -3975,6 +4079,41 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!68 &1059111117
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1059111114}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -0.9611246, y: -0.95915693}
+  - {x: -0.7914027, y: -0.85646766}
+  - {x: -0.7945397, y: -0.78277254}
+  - {x: -0.6850232, y: -0.72252}
+  - {x: -0.6723062, y: -0.6616323}
+  - {x: -0.5800687, y: -0.59724575}
+  - {x: -0.5826825, y: -0.5294973}
+  - {x: -0.36465985, y: -0.42107496}
+  - {x: -0.31133556, y: -0.43447107}
+  - {x: -0.23291552, y: -0.4292424}
+  - {x: -0.12600267, y: -0.3607047}
+  - {x: -0.098631084, y: -0.296513}
+  - {x: -0.022331834, y: -0.2902825}
+  - {x: 0.12514827, y: -0.20324719}
+  - {x: 0.09562307, y: -0.11626145}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0
 --- !u!1 &1081570816
 GameObject:
   m_ObjectHideFlags: 0
@@ -4405,9 +4544,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca62905a532e2e64a9316ccf14c9a149, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 5
+  moveSpeed: 3
   rb: {fileID: 1165625024}
-  smoothspeed: 0.25
+  smoothspeed: 0
   cam: {fileID: 1126441774}
   fov: 90
   healt: 0
@@ -4499,7 +4638,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1165625019}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.81099457, y: 1.8485, z: 0}
+  m_LocalPosition: {x: -0.97, y: 1.63, z: 0}
   m_LocalScale: {x: 1.27, y: 1.27, z: 1.27}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -4859,7 +4998,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 11
+  m_SortingOrder: 4
   m_Sprite: {fileID: 1731310930, guid: 0f0ed3bf02fcbe74b8d43f9a6cfa1897, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0

@@ -8,13 +8,13 @@ public class Lamp : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
     void OnTriggerEnter2D(Collider2D other)
     {
@@ -23,7 +23,7 @@ public class Lamp : MonoBehaviour
             transform.SetParent(other.transform);
 
             //position anpassen
-            transform.localPosition = new Vector3(0, 1, 0);
+            transform.localPosition = new Vector3(0, -1, 0);
 
             Collider2D col = GetComponent<Collider2D>();
             if (col != null) col.enabled = false;

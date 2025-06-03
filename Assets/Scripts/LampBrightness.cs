@@ -36,6 +36,12 @@ public class LampBrightness : MonoBehaviour
       lampLight.intensity = 3;
    }
 
+   public void increaseRadius()
+   {
+      lampLight.pointLightInnerRadius = 0.3f;
+      lampLight.pointLightOuterRadius = 12f;
+   }
+
    public void increaseParticles()
    {
       var psEmission = ps.emission;

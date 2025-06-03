@@ -1,0 +1,956 @@
+fileFormatVersion: 2
+guid: c023df5c7fcdfd14a895c74256acd633
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: carpets tablecloths_0
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 256
+        width: 88
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 22}
+        - {x: -44, y: -2}
+        - {x: -44, y: -10}
+        - {x: -15, y: -22}
+        - {x: 2, y: -22}
+        - {x: 44, y: 2}
+        - {x: 44, y: 10}
+        - {x: 15, y: 22}
+      - - {x: 37, y: -8}
+        - {x: 35, y: -8}
+        - {x: 11, y: -20}
+        - {x: 11, y: -22}
+        - {x: 33, y: -9}
+        - {x: 44, y: -11}
+      - - {x: 39, y: -8}
+        - {x: 43, y: -11}
+        - {x: 44, y: -11}
+        - {x: 44, y: -4}
+        - {x: 39, y: -6}
+      - - {x: 40, y: 22}
+        - {x: 40, y: 14}
+        - {x: 42, y: 13}
+        - {x: 44, y: 14}
+        - {x: 44, y: 22}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e81417e7bef27234fbcea7c40acb76a6
+      internalID: 1696173550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carpets tablecloths_1
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 281
+        width: 70
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31, y: -17.5}
+        - {x: -30, y: -20.5}
+        - {x: -31, y: -19.5}
+        - {x: -32, y: -16.5}
+        - {x: -33, y: -15.5}
+      - - {x: 6, y: 20.5}
+        - {x: -35, y: 2.5}
+        - {x: -35, y: -10.5}
+        - {x: -20, y: -20.5}
+        - {x: -6, y: -20.5}
+        - {x: 35, y: -2.5}
+        - {x: 35, y: 10.5}
+        - {x: 20, y: 20.5}
+      - - {x: 22, y: -18.5}
+        - {x: 23, y: -14.5}
+        - {x: 31, y: -9.5}
+        - {x: 25, y: -15.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e80ee519a94a7754d90e6904e024351e
+      internalID: -760172765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carpets tablecloths_2
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 247
+        width: 86
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e60f714b4ac189e41a4e2a075d751f1c
+      internalID: 1066738298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carpets tablecloths_3
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 261
+        width: 112
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd73679f86a9ac5468c2662c174b7bb2
+      internalID: -1274009810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carpets tablecloths_4
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 282
+        width: 54
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d107a4729986c8c4d93ba7d892e8e828
+      internalID: 1001086704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carpets tablecloths_5
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 251
+        width: 58
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 17}
+        - {x: -29, y: 8}
+        - {x: -29, y: -4}
+        - {x: -4, y: -17}
+        - {x: 8, y: -17}
+        - {x: 29, y: -3}
+        - {x: 29, y: 5}
+        - {x: 0, y: 17}
+      - - {x: 12, y: 17}
+        - {x: 13, y: 14}
+        - {x: 28, y: 7}
+        - {x: 29, y: 7}
+        - {x: 29, y: 17}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2a5f2f57203f994abfd3a78589925da
+      internalID: 184155567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carpets tablecloths_6
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 275
+        width: 72
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f7be84ff0940dd42801aa45c73cea01
+      internalID: -358486437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carpets tablecloths_7
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 242
+        width: 52
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95a085db39809104a87cdd1f7fd7f12d
+      internalID: -1213742093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carpets tablecloths_8
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 260
+        width: 34
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d06217e79b30fcd4086621592fff25a0
+      internalID: -1380893854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carpets tablecloths_9
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 207
+        width: 112
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7f0daa4ae7b876438eea04378316361
+      internalID: -26093000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carpets tablecloths_10
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 240
+        width: 52
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: -11.5}
+        - {x: -21, y: -12.5}
+        - {x: -26, y: -11.5}
+        - {x: -22, y: -10.5}
+      - - {x: -12, y: 15.5}
+        - {x: -26, y: 10.5}
+        - {x: -26, y: -3.5}
+        - {x: -3, y: -15.5}
+        - {x: 9, y: -15.5}
+        - {x: 26, y: -2.5}
+        - {x: 26, y: 2.5}
+        - {x: 5, y: 15.5}
+      - - {x: 12, y: -13.5}
+        - {x: 9, y: -15.5}
+        - {x: 14, y: -12.5}
+        - {x: 25, y: -5.5}
+        - {x: 24, y: -6.5}
+      - - {x: -25, y: -10.5}
+        - {x: -25, y: -8.5}
+        - {x: -23, y: -8.5}
+        - {x: -23, y: -10.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47b6c6ea8aed40d45b4acde2f41244eb
+      internalID: 1126392474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carpets tablecloths_11
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 205
+        width: 108
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: -27}
+        - {x: -14, y: -24}
+        - {x: -54, y: -5}
+        - {x: -40, y: -12}
+      - - {x: -6, y: 27}
+        - {x: -54, y: 6}
+        - {x: -54, y: -5}
+        - {x: -5, y: -27}
+        - {x: 12, y: -27}
+        - {x: 54, y: -3}
+        - {x: 54, y: 2}
+        - {x: 10, y: 27}
+      - - {x: 29, y: -27}
+        - {x: 42, y: -15}
+        - {x: 54, y: -13}
+        - {x: 29, y: -25}
+      - - {x: -29, y: 25}
+        - {x: -28, y: 25}
+        - {x: -41, y: 16}
+        - {x: -54, y: 12}
+      - - {x: 34, y: 17}
+        - {x: 36, y: 24}
+        - {x: 53, y: 16}
+        - {x: 54, y: 16}
+        - {x: 41, y: 17}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 607b71d9dd8ce7349ae3764e4caba320
+      internalID: -1181977598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carpets tablecloths_12
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 174
+        width: 140
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00ca7b1b619b75a4db0bebf8a5b2f475
+      internalID: -1529112419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carpets tablecloths_13
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 222
+        width: 47
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d32733537dc31140a345f49bec16197
+      internalID: 566722308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carpets tablecloths_14
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 241
+        width: 20
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 605767ddc2306cd47b137304ff922eaa
+      internalID: -1048278634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carpets tablecloths_15
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 214
+        width: 56
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00b3991a08120f9458c341a9dff0965e
+      internalID: 1428682812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carpets tablecloths_16
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 221
+        width: 69
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3843efb9759f7d443830bfb70d41d059
+      internalID: -814423097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carpets tablecloths_17
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 171
+        width: 138
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27, y: 34.5}
+        - {x: -69, y: 16.5}
+        - {x: -69, y: 5.5}
+        - {x: 17, y: -34.5}
+        - {x: 33, y: -34.5}
+        - {x: 69, y: -13.5}
+        - {x: 69, y: -8.5}
+        - {x: -10, y: 34.5}
+      - - {x: 53, y: -22.5}
+        - {x: 35, y: -32.5}
+        - {x: 35, y: -34.5}
+        - {x: 57, y: -22.5}
+        - {x: 69, y: -27.5}
+        - {x: 57, y: -22.5}
+      - - {x: 18, y: 34.5}
+        - {x: 6, y: 27.5}
+        - {x: 7, y: 24.5}
+        - {x: 59, y: -2.5}
+        - {x: 64, y: -2.5}
+        - {x: 65, y: -4.5}
+        - {x: 4, y: 27.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 354dc29502927c54a914e45788d1308d
+      internalID: -1820524043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carpets tablecloths_18
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 124
+        width: 182
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -82, y: -43.5}
+        - {x: -68, y: -37.5}
+        - {x: -71, y: -35.5}
+        - {x: -70, y: -38.5}
+        - {x: -74, y: -38.5}
+      - - {x: 6, y: 46.5}
+        - {x: -91, y: -7.5}
+        - {x: -91, y: -14.5}
+        - {x: -29, y: -46.5}
+        - {x: -16, y: -46.5}
+        - {x: 91, y: 4.5}
+        - {x: 91, y: 18.5}
+        - {x: 29, y: 46.5}
+      - - {x: 75, y: -7.5}
+        - {x: 26, y: -32.5}
+        - {x: 26, y: -34.5}
+        - {x: 27, y: -36.5}
+        - {x: 24, y: -34.5}
+        - {x: 46, y: -19.5}
+        - {x: 79, y: -4.5}
+        - {x: 83, y: -7.5}
+      - - {x: -91, y: -13.5}
+        - {x: -63, y: -28.5}
+        - {x: -63, y: -29.5}
+        - {x: -65, y: -29.5}
+        - {x: -66, y: -26.5}
+        - {x: -89, y: -15.5}
+      - - {x: -91, y: -1.5}
+        - {x: -87, y: 1.5}
+        - {x: -83, y: 1.5}
+        - {x: 3, y: 43.5}
+        - {x: 3, y: 46.5}
+        - {x: -58, y: 9.5}
+      - - {x: 64, y: 34.5}
+        - {x: 69, y: 30.5}
+        - {x: 68, y: 30.5}
+        - {x: 43, y: 44.5}
+        - {x: 45, y: 43.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93e5b0b7851d8b543be166d9a1cfeaa2
+      internalID: -1022638024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carpets tablecloths_19
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 214
+        width: 36
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 465dadea2fe766b4d8a64a7811453419
+      internalID: 1987632726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carpets tablecloths_20
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 199
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9088ca93c7ccf0843a337c96b66ec2a3
+      internalID: -1802425419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carpets tablecloths_21
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 199
+        width: 52
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f442cde0a52398d4db439af773c42f74
+      internalID: 704221935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carpets tablecloths_22
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 123
+        width: 116
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 435d89530ed6eb14b86a456109c895a0
+      internalID: 1440653027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carpets tablecloths_23
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 112
+        width: 158
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bdcda1bff4feae4191555ed24205d16
+      internalID: 1848811752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carpets tablecloths_24
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 170
+        width: 69
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6db99e7e3869aa4b8390078db2d159e
+      internalID: -722629513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carpets tablecloths_25
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 93
+        width: 116
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4697297c2ad72f4ea4588083ee1a53b
+      internalID: -834123766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carpets tablecloths_26
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 62
+        width: 118
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 34}
+        - {x: -59, y: 15}
+        - {x: -59, y: 5}
+        - {x: 13, y: -34}
+        - {x: 21, y: -34}
+        - {x: 59, y: -15}
+        - {x: 59, y: -5}
+        - {x: -13, y: 34}
+      - - {x: 50, y: -34}
+        - {x: 54, y: -28}
+        - {x: 59, y: -28}
+        - {x: 50, y: -32}
+      - - {x: -53, y: 25}
+        - {x: -49, y: 25}
+        - {x: -35, y: 31}
+        - {x: -35, y: 34}
+        - {x: -52, y: 22}
+        - {x: -59, y: 29}
+      - - {x: 29, y: 26}
+        - {x: 34, y: 26}
+        - {x: 46, y: 31}
+        - {x: 41, y: 15}
+        - {x: 20, y: 34}
+        - {x: 21, y: 31}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b01132e8ed97304ab93a3649c0dc50e
+      internalID: -1724692725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carpets tablecloths_27
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 24
+        width: 158
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d30ec76da4a51a40beaf2ab12135621
+      internalID: 1955716736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carpets tablecloths_28
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 85
+        width: 158
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f005a547186003f41b5aa6d7c7be628e
+      internalID: 164731539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      carpets tablecloths_17: -1820524043
+      carpets tablecloths_23: 1848811752
+      carpets tablecloths_24: -722629513
+      carpets tablecloths_10: 1126392474
+      carpets tablecloths_4: 1001086704
+      carpets tablecloths_8: -1380893854
+      carpets tablecloths_12: -1529112419
+      carpets tablecloths_13: 566722308
+      carpets tablecloths_26: -1724692725
+      carpets tablecloths_28: 164731539
+      carpets tablecloths_16: -814423097
+      carpets tablecloths_3: -1274009810
+      carpets tablecloths_19: 1987632726
+      carpets tablecloths_1: -760172765
+      carpets tablecloths_5: 184155567
+      carpets tablecloths_25: -834123766
+      carpets tablecloths_27: 1955716736
+      carpets tablecloths_7: -1213742093
+      carpets tablecloths_0: 1696173550
+      carpets tablecloths_2: 1066738298
+      carpets tablecloths_15: 1428682812
+      carpets tablecloths_14: -1048278634
+      carpets tablecloths_20: -1802425419
+      carpets tablecloths_9: -26093000
+      carpets tablecloths_11: -1181977598
+      carpets tablecloths_18: -1022638024
+      carpets tablecloths_21: 704221935
+      carpets tablecloths_6: -358486437
+      carpets tablecloths_22: 1440653027
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

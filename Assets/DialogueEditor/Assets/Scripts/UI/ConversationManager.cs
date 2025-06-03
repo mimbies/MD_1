@@ -19,6 +19,13 @@ namespace DialogueEditor
             NONE,
         }
 
+        //random stuff von cengiz für die options auswahl
+        private float inputCooldown = 0.3f;
+        private float lastInputTime = 0;
+
+
+
+
         private const float TRANSITION_TIME = 0.2f; // Transition time for fades
 
         public static ConversationManager Instance { get; private set; }
@@ -341,7 +348,7 @@ namespace DialogueEditor
         private void ScrollingText_Update()
         {
             // Skips text scroll
-            if (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.Return))
+            if (Input.GetButtonDown("Submit"))
             {
                 DialogueText.maxVisibleCharacters = m_targetScrollTextCount;
                 SetState(eState.TransitioningOptionsOn);
@@ -401,24 +408,34 @@ namespace DialogueEditor
                 }
             }
 
-            // 2) Manueller Input (Enter + Navigation)
+            // 2) Manueller Input (Enter/Space/(A) + Navigation)
             if (!AllowMouseInteraction) return;
 
-            if (Input.GetKeyDown(KeyCode.Return) || Input.GetKeyDown(KeyCode.Space))
+            if (Input.GetButtonDown("Submit"))
             {
                 TryHandleEnterPress();
             }
 
             if (m_uiOptions.Count > 0)
             {
-                if (Input.GetKeyDown(KeyCode.UpArrow))
+
+
+                if (Time.time - lastInputTime >= inputCooldown) //Time.time gibt die aktuelle spielzeit 
                 {
-                    NavigateOptions(-1);
+
+                    if (Input.GetAxisRaw("Vertical") < 0)
+                    {
+                        lastInputTime = Time.time;
+                        NavigateOptions(-1);
+                    }
+                    else if (Input.GetAxisRaw("Vertical") > 0)
+                    {
+                        lastInputTime = Time.time;
+                        NavigateOptions(1);
+                    }
+
                 }
-                else if (Input.GetKeyDown(KeyCode.DownArrow))
-                {
-                    NavigateOptions(1);
-                }
+
             }
         }
         

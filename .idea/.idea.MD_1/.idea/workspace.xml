@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dfa209b2-b43e-4953-9529-73a61c045d5e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MD_1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MD_1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CengizScripts/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CengizScripts/PlayerMovement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DialogueEditor/Assets/Scripts/UI/ConversationManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DialogueEditor/Assets/Scripts/UI/ConversationManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Credits.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Credits.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/ForestMaze.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ForestMaze.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/HouseTwo.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/HouseTwo.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,6 +102,7 @@
       <updated>1747910922931</updated>
       <workItem from="1747910924574" duration="1888000" />
       <workItem from="1748800336199" duration="3477000" />
+      <workItem from="1748976498540" duration="53000" />
     </task>
     <servers />
   </component>

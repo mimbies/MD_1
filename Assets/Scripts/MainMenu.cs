@@ -18,28 +18,28 @@ public class MainMenu : MonoBehaviour
     }
     public void startGame()
     {
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene("Intro");
     }
 
     public void loadForestScene()
     {
-        SceneManager.LoadScene(3);
+        SceneManager.LoadScene("ForestMaze");
     }
 
     public void HouseTwoScene()
     {
-        SceneManager.LoadScene(4);
+        SceneManager.LoadScene("HouseTwo");
     }
 
 
     public void credits()
     {
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene("Credits");
     }
 
     public void backToMenu()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene("Menu");
     }
 
 

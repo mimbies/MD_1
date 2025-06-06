@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Rendering;
 using UnityEngine.Rendering.Universal;
 
 
@@ -11,12 +12,17 @@ public class LampBrightness : MonoBehaviour
 
    public ParticleSystem ps;
 
+    //Lamp Control attributes 
+   private float minLightIntensity = 0.7f;
+   private float maxLightIntensity = 3f;
+    private float lampFadeDuration = 3f; 
 
 
 
-   public void decreaseIntensity()
+
+    public void decreaseIntensity()
    {
-      lampLight.intensity = 0.7f;
+      lampLight.intensity = minLightIntensity;
    }
 
    /*public void changeLampColor()
@@ -33,7 +39,8 @@ public class LampBrightness : MonoBehaviour
 
    public void increaseIntensity()
    {
-      lampLight.intensity = 3;
+        //lampLight.intensity = maxLightIntensity;
+        StartCoroutine(fadeLightIntensityUp());
    }
 
    public void increaseRadius()
@@ -47,4 +54,22 @@ public class LampBrightness : MonoBehaviour
       var psEmission = ps.emission;
       psEmission.rateOverTime = 1000;
    }
+
+    private IEnumerator fadeLightIntensityUp()
+    {
+        float startIntensity = lampLight.intensity;
+        float timeElapsed = 0;
+
+        while(timeElapsed < lampFadeDuration) 
+        {
+            lampLight.intensity = Mathf.Lerp(startIntensity, maxLightIntensity, timeElapsed / lampFadeDuration);
+            timeElapsed += Time.deltaTime;
+            yield return null;
+        }
+
+        lampLight.intensity = maxLightIntensity;
+    }
+
+
+
 }

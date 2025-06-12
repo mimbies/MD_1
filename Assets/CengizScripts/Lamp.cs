@@ -5,7 +5,7 @@ using UnityEngine;
 public class Lamp : MonoBehaviour
 {
     public string playerTag = "Player";
-    // Start is called before the first frame update
+    //Start is called before the first frame update
     void Start()
     {
 

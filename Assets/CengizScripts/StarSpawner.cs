@@ -6,6 +6,7 @@ using UnityEngine;
 public class StarSpawner : MonoBehaviour
 {
     public GameObject star;
+    public GameObject shadow;
     [SerializeField] float flyingTime = 5f;
     
 
@@ -13,16 +14,62 @@ public class StarSpawner : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        StartCoroutine(SpawnStarsRoutine());
 
 
+    }
+
+    IEnumerator SpawnStarsRoutine()
+    {
+        while (true)
+        {
+            SpawnStarAndShadow();
+            yield return new WaitForSeconds(4f);
+        }
+    }
+
+    void SpawnStarAndShadow()
+    {
         //vector erzeugen 
         Vector2 vector = MakeVector();
+        Vector2 oppositeVector = -vector;
+        //optimierungsbedarf
+        float angle = Mathf.Atan2(oppositeVector.y, oppositeVector.x) * Mathf.Rad2Deg;
+
+
 
         //Startpunkt finden 
-        Vector2 startPoint = getStartingPoint(vector); 
+        Vector2 startPoint = getStartingPoint(vector);
+
+
+        //schatten erstellen
+        Vector2 endPoint = startPoint + vector;
+        GameObject shadowGameObject = Instantiate(shadow, endPoint, Quaternion.identity);
+
+
 
         //stern erzeugen 
-        GameObject starGameObject =  Instantiate(star, startPoint, Quaternion.identity);
+        GameObject starGameObject = Instantiate(star, startPoint, Quaternion.identity);
+
+        Star starController = starGameObject.GetComponent<Star>();
+
+        starController.SetShadow(shadowGameObject);
+
+
+
+        
+
+
+
+
+        //partikel drehen
+        ParticleSystem glitter = starGameObject.GetComponentInChildren<ParticleSystem>();
+        if (glitter != null)
+        {
+            glitter.transform.rotation = Quaternion.Euler(0, 0, angle);
+        }
+
+
 
         //sternbewegen test 
         Rigidbody2D rbFromStar = starGameObject.GetComponent<Rigidbody2D>();
@@ -31,16 +78,42 @@ public class StarSpawner : MonoBehaviour
 
         //sehr assozial gecoded / bruteforced
         Collider2D col = starGameObject.GetComponent<Collider2D>();
-        StartCoroutine(EnableColliderAfterDelay(3.5f, col));
+        col.enabled = false;
+        StartCoroutine(EnableColliderAfterDelay(3.7f, col));
+        StartCoroutine(AnimateShadow(shadowGameObject, 3.5f));
         Destroy(starGameObject, 4f);
-        
-
+        Destroy(shadowGameObject, 4f);
 
 
         //stern bewegen klappt aber unschön 
         //StartCoroutine(MoveAlongVector(starGameObject.transform, vector, flyingTime));
 
+    }
 
+    IEnumerator AnimateShadow(GameObject shadow, float duration)
+    {
+        SpriteRenderer shadowSprite = shadow.GetComponent<SpriteRenderer>();
+        Transform shadowTransform = shadow.transform; 
+
+        float timeElapsed = 0f;
+
+        Vector2 startScale = Vector2.zero;
+        Vector2 endScale = Vector2.one;
+
+        Color startColor = new Color(0, 0, 0, 0);
+        Color endColor = new Color(0, 0, 0, 0.75f);
+
+
+        while (timeElapsed < duration)
+        {
+            float t = timeElapsed / duration;
+
+            shadowTransform.localScale = Vector3.Lerp(startScale, endScale, t);
+            shadowSprite.color = Color.Lerp(startColor, endColor, t);
+
+            timeElapsed += Time.deltaTime;
+            yield return null;
+        }
 
 
 
@@ -108,4 +181,6 @@ public class StarSpawner : MonoBehaviour
 
 
     }
+
+
 }

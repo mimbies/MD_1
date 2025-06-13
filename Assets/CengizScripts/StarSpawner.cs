@@ -45,6 +45,8 @@ public class StarSpawner : MonoBehaviour
 
 
     }
+
+    //sehr assozial 
     IEnumerator EnableColliderAfterDelay(float delay, Collider2D col)
     {
         yield return new WaitForSeconds(delay);

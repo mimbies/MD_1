@@ -55,7 +55,7 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (ConversationManager.Instance.IsConversationActive)
+        if (ConversationManager.Instance != null && ConversationManager.Instance.IsConversationActive)
         {
             movement = Vector2.zero;
             anim.enabled = false;

@@ -1,19 +1,22 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class onklickDestroy : MonoBehaviour
 {
+    public string inputButton = "Submit";
     public float disappearSpeed = 1f;
+
     private bool isVisible = false;
     private bool isDisappearing = false;
     private Vector3 originalScale;
 
-    // Start is called before the first frame update
+    private Rigidbody2D rb;
+    private Vector2 savedVelocity;
+
     void Start()
     {
         originalScale = transform.localScale;
-
+        rb = GetComponent<Rigidbody2D>();
+        savedVelocity = rb.velocity; // startgeschwindigkeit merken
     }
 
     void OnBecameVisible()
@@ -26,12 +29,25 @@ public class onklickDestroy : MonoBehaviour
         isVisible = false;
     }
 
-    // Update is called once per frame
     void Update()
     {
-        if (isVisible && Input.GetButton("Submit"))
+        if (isVisible && Input.GetButton(inputButton))
         {
+            if (!isDisappearing)
+            {
+                savedVelocity = rb.velocity;
+                rb.velocity = Vector2.zero;
+            }
+
             isDisappearing = true;
+        }
+        else
+        {
+            if (isDisappearing && transform.localScale.magnitude > 0.01f)
+            {
+                rb.velocity = savedVelocity;
+                isDisappearing = false;
+            }
         }
 
         if (isDisappearing)

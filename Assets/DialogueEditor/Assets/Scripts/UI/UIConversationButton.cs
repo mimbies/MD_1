@@ -30,13 +30,26 @@ namespace DialogueEditor
 
         // Node data
         private eButtonType m_buttonType;
-        private ConversationNode m_node;    
+        private ConversationNode m_node;
 
         // Hovering 
         private float m_hoverT = 0.0f;
         private eHoverState m_hoverState;
         private bool Hovering { get { return (m_hoverState == eHoverState.animatingOn || m_hoverState == eHoverState.animatingOff); } }
         private Vector3 BigSize { get { return Vector3.one * 1.2f; } }
+
+        //defautl font
+        private void Start()
+        {
+            TMPro.TMP_FontAsset font = Resources.Load<TMPro.TMP_FontAsset>("Classica-BookOblique SDF");
+            if (font != null)
+            {
+                TextMesh.font = font;
+            }
+        }
+
+
+
 
 
         //--------------------------------------
@@ -46,6 +59,7 @@ namespace DialogueEditor
         private void Awake()
         {
             m_rect = GetComponent<RectTransform>();
+            TMPro.TMP_FontAsset font = Resources.Load<TMPro.TMP_FontAsset>("CAOOLI SDF");
         }
 
         private void Update()
@@ -62,7 +76,7 @@ namespace DialogueEditor
                 }
                 Vector3 size = Vector3.one;
                 float ease = EaseOutQuart(normalised);
-                
+
 
                 switch (m_hoverState)
                 {

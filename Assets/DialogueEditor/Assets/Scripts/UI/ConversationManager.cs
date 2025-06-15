@@ -24,8 +24,7 @@ namespace DialogueEditor
         private float inputCooldown = 0.3f;
         private float lastInputTime = 0;
 
-
-
+        //font
 
 
 

@@ -97,6 +97,7 @@ namespace DialogueEditor
         // Awake, Start, Destroy, Update
         //--------------------------------------
 
+
         private void Awake()
         {
             // Destroy myself if I am not the singleton
@@ -111,6 +112,8 @@ namespace DialogueEditor
             NpcIcon.sprite = BlankSprite;
             DialogueText.text = "";
             TurnOffUI();
+
+
         }
 
         private void OnDestroy()
@@ -549,6 +552,7 @@ namespace DialogueEditor
 
         private void SetupSpeech(SpeechNode speech)
         {
+
             if (speech == null)
             {
                 EndConversation();
@@ -574,7 +578,7 @@ namespace DialogueEditor
             // Set font
             if (speech.TMPFont != null)
             {
-                DialogueText.font = speech.TMPFont;
+                DialogueText.font = Resources.Load<TMPro.TMP_FontAsset>("Classica-Book SDF");
             }
             else
             {
@@ -640,6 +644,8 @@ namespace DialogueEditor
             {
                 SetState(eState.TransitioningOptionsOn);
             }
+
+            DialogueText.font = Resources.Load<TMPro.TMP_FontAsset>("Classica-Book SDF");
         }
 
 

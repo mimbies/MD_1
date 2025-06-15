@@ -41,7 +41,7 @@ namespace DialogueEditor
         //defautl font
         private void Start()
         {
-            TMPro.TMP_FontAsset font = Resources.Load<TMPro.TMP_FontAsset>("Classica-BookOblique SDF");
+            TMPro.TMP_FontAsset font = Resources.Load<TMPro.TMP_FontAsset>("Classica-Book SDF");
             if (font != null)
             {
                 TextMesh.font = font;
@@ -59,7 +59,7 @@ namespace DialogueEditor
         private void Awake()
         {
             m_rect = GetComponent<RectTransform>();
-            TMPro.TMP_FontAsset font = Resources.Load<TMPro.TMP_FontAsset>("CAOOLI SDF");
+
         }
 
         private void Update()

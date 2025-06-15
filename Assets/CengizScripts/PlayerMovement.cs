@@ -15,6 +15,11 @@ public class PlayerMovement : MonoBehaviour
     Vector2 inputVelo;
 
 
+    //partikel 
+    public GameObject dustEffectPrefab;
+    private bool canSpawnDust= true;
+
+
     //sound
 
 
@@ -37,6 +42,18 @@ public class PlayerMovement : MonoBehaviour
 
 
 
+    //partikel-----------------------------------------------------------------------------
+    void CreateDust()
+    {
+        Vector3 dustPosition = new Vector3(transform.position.x, transform.position.y - 0.46f, transform.position.z);
+        GameObject dust = Instantiate(dustEffectPrefab, dustPosition, Quaternion.identity);
+        Destroy(dust, 1f);
+    }
+    void ResetDustCooldown()
+    {
+        canSpawnDust = true;
+    }
+    //----------------------------------------------------------------------------------------
 
 
     public void Awake()
@@ -93,6 +110,15 @@ public class PlayerMovement : MonoBehaviour
         if(movement.magnitude != 0)
         {
             GetComponent<SpriteRenderer>().flipX = movex < 0;
+
+            //partikel--------------------------------------------------
+            if (canSpawnDust)
+            {
+                CreateDust();
+                canSpawnDust = false;
+                Invoke(nameof(ResetDustCooldown), 0.1f);
+            }
+            //----------------------------------------------------------
         }
 
         anim.SetBool("isWalking", movement.magnitude > 0);

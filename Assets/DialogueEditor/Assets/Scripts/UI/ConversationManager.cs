@@ -3,6 +3,7 @@ using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.UI;
 
+
 namespace DialogueEditor
 {
     public class ConversationManager : MonoBehaviour
@@ -22,6 +23,10 @@ namespace DialogueEditor
         //random stuff von cengiz für die options auswahl
         private float inputCooldown = 0.3f;
         private float lastInputTime = 0;
+
+
+
+
 
 
 
@@ -79,7 +84,7 @@ namespace DialogueEditor
         public int m_targetScrollTextCount;
         private eState m_state;
         private float m_stateTime;
-        
+
         private Conversation m_conversation;
         private SpeechNode m_currentSpeech;
         private OptionNode m_selectedOption;
@@ -225,7 +230,7 @@ namespace DialogueEditor
                 LogWarning("parameter \'" + paramName + "\' does not exist.");
             }
         }
-        
+
         public void SetBool(string paramName, bool value)
         {
             eParamStatus status;
@@ -438,7 +443,7 @@ namespace DialogueEditor
 
             }
         }
-        
+
         private void TryHandleEnterPress()
         {
             if (m_uiOptions.Count > 0)
@@ -635,7 +640,7 @@ namespace DialogueEditor
             else
             {
                 SetState(eState.TransitioningOptionsOn);
-            }            
+            }
         }
 
 
@@ -777,7 +782,7 @@ namespace DialogueEditor
                         {
                             uiOption.SetupButton(UIConversationButton.eButtonType.Speech, next, continueFont: m_conversation.ContinueFont);
                         }
-                        
+
                     }
                     else if (m_currentSpeech.ConnectionType == Connection.eConnectionType.None)
                     {

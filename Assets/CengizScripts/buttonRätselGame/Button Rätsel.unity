@@ -2964,31 +2964,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2003728719455326516, guid: 62ab329e50806e84a9278b1ee76cd70c, type: 3}
       propertyPath: correctOrder.Array.data[0]
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2003728719455326516, guid: 62ab329e50806e84a9278b1ee76cd70c, type: 3}
-      propertyPath: correctOrder.Array.data[1]
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 2003728719455326516, guid: 62ab329e50806e84a9278b1ee76cd70c, type: 3}
-      propertyPath: correctOrder.Array.data[2]
-      value: 7
-      objectReference: {fileID: 0}
-    - target: {fileID: 2003728719455326516, guid: 62ab329e50806e84a9278b1ee76cd70c, type: 3}
-      propertyPath: correctOrder.Array.data[3]
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2003728719455326516, guid: 62ab329e50806e84a9278b1ee76cd70c, type: 3}
-      propertyPath: correctOrder.Array.data[4]
       value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 2003728719455326516, guid: 62ab329e50806e84a9278b1ee76cd70c, type: 3}
-      propertyPath: correctOrder.Array.data[5]
+      propertyPath: correctOrder.Array.data[1]
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2003728719455326516, guid: 62ab329e50806e84a9278b1ee76cd70c, type: 3}
+      propertyPath: correctOrder.Array.data[2]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2003728719455326516, guid: 62ab329e50806e84a9278b1ee76cd70c, type: 3}
+      propertyPath: correctOrder.Array.data[3]
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2003728719455326516, guid: 62ab329e50806e84a9278b1ee76cd70c, type: 3}
+      propertyPath: correctOrder.Array.data[4]
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2003728719455326516, guid: 62ab329e50806e84a9278b1ee76cd70c, type: 3}
+      propertyPath: correctOrder.Array.data[5]
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2003728719455326516, guid: 62ab329e50806e84a9278b1ee76cd70c, type: 3}
       propertyPath: correctOrder.Array.data[6]
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 2003728719455326517, guid: 62ab329e50806e84a9278b1ee76cd70c, type: 3}
       propertyPath: m_RootOrder

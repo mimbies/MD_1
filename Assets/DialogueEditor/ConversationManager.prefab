@@ -68,8 +68,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Name.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: f7d05ce13cfcbc44f937dfb8a1f711c7, type: 2}
-  m_sharedMaterial: {fileID: -1172821138065454625, guid: f7d05ce13cfcbc44f937dfb8a1f711c7, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: ee641f11d99a1794b9479ada61cf334a, type: 2}
+  m_sharedMaterial: {fileID: 4944469364220698235, guid: ee641f11d99a1794b9479ada61cf334a, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -93,7 +93,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 23
+  m_fontSize: 24
   m_fontSizeBase: 15
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -204,8 +204,8 @@ MonoBehaviour:
   m_text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
     tempor incididunt ut labore et dolore magna aliqua.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: da11d5683967c5347af166681f671941, type: 2}
-  m_sharedMaterial: {fileID: -2691524772713212501, guid: da11d5683967c5347af166681f671941, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 6166e7964f31f324c91b06832e98eb60, type: 2}
+  m_sharedMaterial: {fileID: -5438967425852159078, guid: 6166e7964f31f324c91b06832e98eb60, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -323,7 +323,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 28fe614b88daf184a841493ff6bdcd86, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  betterFont: {fileID: 0}
   ScrollText: 1
   ScrollSpeed: 1
   BackgroundImage: {fileID: 21300000, guid: bf566e80557acbc45b9a695fcaa25327, type: 3}

@@ -10,6 +10,7 @@ public class ButtonPuzzle : MonoBehaviour
     private SpriteRenderer sr;
     private ButtonManger manager;
     private Color originalColor;
+    
 
 
     // Start is called before the first frame update
@@ -29,6 +30,12 @@ public class ButtonPuzzle : MonoBehaviour
     public void ResetButton()
     {
         isPressed = false;
+        StartCoroutine(FlashRedThenReset());
+    }
+    private IEnumerator FlashRedThenReset()
+    {
+        sr.color = Color.red;
+        yield return new WaitForSeconds(1f);
         sr.color = originalColor;
     }
     void OnTriggerEnter2D(Collider2D other)

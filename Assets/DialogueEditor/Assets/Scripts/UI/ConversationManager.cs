@@ -3,6 +3,7 @@ using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.UI;
 
+
 namespace DialogueEditor
 {
     public class ConversationManager : MonoBehaviour
@@ -22,6 +23,9 @@ namespace DialogueEditor
         //random stuff von cengiz für die options auswahl
         private float inputCooldown = 0.3f;
         private float lastInputTime = 0;
+
+        //font
+
 
 
 
@@ -79,7 +83,7 @@ namespace DialogueEditor
         public int m_targetScrollTextCount;
         private eState m_state;
         private float m_stateTime;
-        
+
         private Conversation m_conversation;
         private SpeechNode m_currentSpeech;
         private OptionNode m_selectedOption;
@@ -92,6 +96,7 @@ namespace DialogueEditor
         //--------------------------------------
         // Awake, Start, Destroy, Update
         //--------------------------------------
+
 
         private void Awake()
         {
@@ -107,6 +112,8 @@ namespace DialogueEditor
             NpcIcon.sprite = BlankSprite;
             DialogueText.text = "";
             TurnOffUI();
+
+
         }
 
         private void OnDestroy()
@@ -225,7 +232,7 @@ namespace DialogueEditor
                 LogWarning("parameter \'" + paramName + "\' does not exist.");
             }
         }
-        
+
         public void SetBool(string paramName, bool value)
         {
             eParamStatus status;
@@ -438,7 +445,7 @@ namespace DialogueEditor
 
             }
         }
-        
+
         private void TryHandleEnterPress()
         {
             if (m_uiOptions.Count > 0)
@@ -545,6 +552,7 @@ namespace DialogueEditor
 
         private void SetupSpeech(SpeechNode speech)
         {
+
             if (speech == null)
             {
                 EndConversation();
@@ -570,7 +578,7 @@ namespace DialogueEditor
             // Set font
             if (speech.TMPFont != null)
             {
-                DialogueText.font = speech.TMPFont;
+                DialogueText.font = Resources.Load<TMPro.TMP_FontAsset>("Classica-Book SDF");
             }
             else
             {
@@ -635,7 +643,9 @@ namespace DialogueEditor
             else
             {
                 SetState(eState.TransitioningOptionsOn);
-            }            
+            }
+
+            DialogueText.font = Resources.Load<TMPro.TMP_FontAsset>("Classica-Book SDF");
         }
 
 
@@ -777,7 +787,7 @@ namespace DialogueEditor
                         {
                             uiOption.SetupButton(UIConversationButton.eButtonType.Speech, next, continueFont: m_conversation.ContinueFont);
                         }
-                        
+
                     }
                     else if (m_currentSpeech.ConnectionType == Connection.eConnectionType.None)
                     {

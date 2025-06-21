@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dfa209b2-b43e-4953-9529-73a61c045d5e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Classica-Bold SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Classica-Bold SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Classica-Book SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Classica-Book SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ForestMaze.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ForestMaze.unity" afterDir="false" />
-    </list>
+    <list default="true" id="dfa209b2-b43e-4953-9529-73a61c045d5e" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -103,7 +99,7 @@
       <workItem from="1747910924574" duration="1888000" />
       <workItem from="1748800336199" duration="3477000" />
       <workItem from="1748976498540" duration="53000" />
-      <workItem from="1750511051082" duration="254000" />
+      <workItem from="1750511051250" duration="1622000" />
     </task>
     <servers />
   </component>

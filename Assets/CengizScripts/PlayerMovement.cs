@@ -72,19 +72,37 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        anim.SetBool("isWalking", movement.magnitude > 0);
+
         if (ConversationManager.Instance != null && ConversationManager.Instance.IsConversationActive)
         {
             movement = Vector2.zero;
-            anim.enabled = false;
+            if (isWalking)
+            {
+                anim.Play("idle");
+            }
             return;
-        }
+        } 
 
-        anim.enabled = true;
         //movement
         float movex = Input.GetAxisRaw("Horizontal");
         float movey = Input.GetAxisRaw("Vertical");
         movement = new Vector2(movex, movey).normalized;
 
+        //animation
+        if(movement.magnitude != 0)
+        {
+            GetComponent<SpriteRenderer>().flipX = movex < 0;
+
+            //partikel--------------------------------------------------
+            if (canSpawnDust)
+            {
+                CreateDust();
+                canSpawnDust = false;
+                Invoke(nameof(ResetDustCooldown), 0.1f);
+            }
+            //----------------------------------------------------------
+        }
 
         if (Input.GetKey(KeyCode.Escape))
         {
@@ -103,25 +121,6 @@ public class PlayerMovement : MonoBehaviour
         //        pause = false;
         //    }
         //}
-
-
-
-        //animation
-        if(movement.magnitude != 0)
-        {
-            GetComponent<SpriteRenderer>().flipX = movex < 0;
-
-            //partikel--------------------------------------------------
-            if (canSpawnDust)
-            {
-                CreateDust();
-                canSpawnDust = false;
-                Invoke(nameof(ResetDustCooldown), 0.1f);
-            }
-            //----------------------------------------------------------
-        }
-
-        anim.SetBool("isWalking", movement.magnitude > 0);
     }
 
 

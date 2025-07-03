@@ -10,6 +10,10 @@ public class Collectible : MonoBehaviour
 
     public bool collectingAllowed = false;
 
+    public GameObject objToSetActive;
+
+    CollectibleCount Ccount;
+
 
     public static int total = 0;
 
@@ -47,6 +51,11 @@ public class Collectible : MonoBehaviour
                 OnCollected?.Invoke();
                 Destroy(this.gameObject);
 
+            }
+
+            if (Ccount.count == 13)
+            {
+                objToSetActive.SetActive(true);
             }
 
 

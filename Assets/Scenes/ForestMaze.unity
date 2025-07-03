@@ -513,6 +513,10 @@ PrefabInstance:
       propertyPath: objToToggle
       value: 
       objectReference: {fileID: 2017716096}
+    - target: {fileID: 4744246982489189030, guid: a6d980f1f1e894d4a85c70eb957d1122, type: 3}
+      propertyPath: objToSetActive
+      value: 
+      objectReference: {fileID: 2017716096}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: a6d980f1f1e894d4a85c70eb957d1122, type: 3}
@@ -1250,6 +1254,10 @@ PrefabInstance:
       objectReference: {fileID: 788505196}
     - target: {fileID: 4744246982489189030, guid: a6d980f1f1e894d4a85c70eb957d1122, type: 3}
       propertyPath: objToToggle
+      value: 
+      objectReference: {fileID: 2017716096}
+    - target: {fileID: 4744246982489189030, guid: a6d980f1f1e894d4a85c70eb957d1122, type: 3}
+      propertyPath: objToSetActive
       value: 
       objectReference: {fileID: 2017716096}
     m_RemovedComponents: []
@@ -6324,6 +6332,18 @@ MonoBehaviour:
   Event:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 297125735}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 1045981745}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
@@ -16285,6 +16305,10 @@ PrefabInstance:
       propertyPath: objToToggle
       value: 
       objectReference: {fileID: 2017716096}
+    - target: {fileID: 4744246982489189030, guid: a6d980f1f1e894d4a85c70eb957d1122, type: 3}
+      propertyPath: objToSetActive
+      value: 
+      objectReference: {fileID: 2017716096}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: a6d980f1f1e894d4a85c70eb957d1122, type: 3}
@@ -17218,6 +17242,10 @@ PrefabInstance:
       propertyPath: objToToggle
       value: 
       objectReference: {fileID: 2017716096}
+    - target: {fileID: 4744246982489189030, guid: a6d980f1f1e894d4a85c70eb957d1122, type: 3}
+      propertyPath: objToSetActive
+      value: 
+      objectReference: {fileID: 2017716096}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: a6d980f1f1e894d4a85c70eb957d1122, type: 3}
@@ -17871,6 +17899,10 @@ PrefabInstance:
       objectReference: {fileID: 788505196}
     - target: {fileID: 4744246982489189030, guid: a6d980f1f1e894d4a85c70eb957d1122, type: 3}
       propertyPath: objToToggle
+      value: 
+      objectReference: {fileID: 2017716096}
+    - target: {fileID: 4744246982489189030, guid: a6d980f1f1e894d4a85c70eb957d1122, type: 3}
+      propertyPath: objToSetActive
       value: 
       objectReference: {fileID: 2017716096}
     m_RemovedComponents: []
@@ -20152,7 +20184,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &788505194
 Transform:
   m_ObjectHideFlags: 0
@@ -20733,16 +20765,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CurrentIDCounter: 18
-  json: "{\"Options\":[{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":14}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":44.1666565,\"yPos\":192.666687},\"ID\":11,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"What
-    kind of project?\",\"parentUIDs\":[8],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":13}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":278.1667,\"yPos\":193.666687},\"ID\":12,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Leave
-    the basket. Then see that you get home.\\n\",\"parentUIDs\":[8],\"SpeechUID\":-1}],\"Parameters\":[],\"SpeechNodes\":[{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":6}],\"EditorInfo\":{\"isRoot\":true,\"xPos\":157.5,\"yPos\":-210},\"ID\":0,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"It's
-    you again! Hey, don't run away!\",\"parentUIDs\":[],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Enola\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":7}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":158.5,\"yPos\":-112},\"ID\":6,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"
-    I'm not taking much. Just a few. I didn\u2019t know they belonged to anyone.\",\"parentUIDs\":[0],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"...\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":8}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":159.5,\"yPos\":-12},\"ID\":7,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"They
-    do.\",\"parentUIDs\":[6],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Enola\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":11},{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":12}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":161.5,\"yPos\":93},\"ID\":8,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"
-    Okay. I\u2019m sorry. I really am. I needed them for a project.\",\"parentUIDs\":[7],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Skye\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":16}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":280.1667,\"yPos\":266.6667},\"ID\":13,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Leave
-    the basket. Then see that you get home.\",\"parentUIDs\":[12],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Enola\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":15}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":46.1666565,\"yPos\":272.6667},\"ID\":14,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"What
-    kind of project?\",\"parentUIDs\":[11],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Enola\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[],\"EditorInfo\":{\"isRoot\":false,\"xPos\":51.16667,\"yPos\":383.666626},\"ID\":15,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"It
-    doesn't matter. I... need to go now.\",\"parentUIDs\":[14],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"...\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[],\"EditorInfo\":{\"isRoot\":false,\"xPos\":280.1667,\"yPos\":384.666626},\"ID\":16,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Alright.
+  json: "{\"Options\":[{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":14}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":160.166656,\"yPos\":94.66669},\"ID\":11,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"What
+    kind of project?\",\"parentUIDs\":[8],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":13}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":394.1667,\"yPos\":95.66669},\"ID\":12,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Leave
+    the basket. Then see that you get home.\\n\",\"parentUIDs\":[8],\"SpeechUID\":-1}],\"Parameters\":[],\"SpeechNodes\":[{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":6}],\"EditorInfo\":{\"isRoot\":true,\"xPos\":273.5,\"yPos\":-308},\"ID\":0,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"It's
+    you again! Hey, don't run away!\",\"parentUIDs\":[],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Enola\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":7}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":274.5,\"yPos\":-210},\"ID\":6,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"
+    I'm not taking much. Just a few. I didn\u2019t know they belonged to anyone.\",\"parentUIDs\":[0],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"...\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":8}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":275.5,\"yPos\":-110},\"ID\":7,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"They
+    do.\",\"parentUIDs\":[6],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Enola\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":11},{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":12}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":277.5,\"yPos\":-5},\"ID\":8,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"
+    Okay. I\u2019m sorry. I really am. I needed them for a project.\",\"parentUIDs\":[7],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Skye\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":16}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":396.1667,\"yPos\":168.666687},\"ID\":13,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Leave
+    the basket. Then see that you get home.\",\"parentUIDs\":[12],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Enola\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":15}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":162.166656,\"yPos\":174.666687},\"ID\":14,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"What
+    kind of project?\",\"parentUIDs\":[11],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Enola\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[],\"EditorInfo\":{\"isRoot\":false,\"xPos\":167.166672,\"yPos\":285.666626},\"ID\":15,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"It
+    doesn't matter. I... need to go now.\",\"parentUIDs\":[14],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"...\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[],\"EditorInfo\":{\"isRoot\":false,\"xPos\":396.1667,\"yPos\":286.666626},\"ID\":16,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Alright.
     I'll go.\",\"parentUIDs\":[13],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"...\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0}]}"
   saveVersion: 110
   DefaultName: Witch
@@ -21670,6 +21702,10 @@ PrefabInstance:
       objectReference: {fileID: 788505196}
     - target: {fileID: 4744246982489189030, guid: a6d980f1f1e894d4a85c70eb957d1122, type: 3}
       propertyPath: objToToggle
+      value: 
+      objectReference: {fileID: 2017716096}
+    - target: {fileID: 4744246982489189030, guid: a6d980f1f1e894d4a85c70eb957d1122, type: 3}
+      propertyPath: objToSetActive
       value: 
       objectReference: {fileID: 2017716096}
     m_RemovedComponents: []
@@ -27790,6 +27826,10 @@ PrefabInstance:
       propertyPath: objToToggle
       value: 
       objectReference: {fileID: 2017716096}
+    - target: {fileID: 4744246982489189030, guid: a6d980f1f1e894d4a85c70eb957d1122, type: 3}
+      propertyPath: objToSetActive
+      value: 
+      objectReference: {fileID: 2017716096}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: a6d980f1f1e894d4a85c70eb957d1122, type: 3}
@@ -29831,6 +29871,10 @@ PrefabInstance:
       propertyPath: objToToggle
       value: 
       objectReference: {fileID: 2017716096}
+    - target: {fileID: 4744246982489189030, guid: a6d980f1f1e894d4a85c70eb957d1122, type: 3}
+      propertyPath: objToSetActive
+      value: 
+      objectReference: {fileID: 2017716096}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: a6d980f1f1e894d4a85c70eb957d1122, type: 3}
@@ -30232,6 +30276,10 @@ PrefabInstance:
       objectReference: {fileID: 788505196}
     - target: {fileID: 4744246982489189030, guid: a6d980f1f1e894d4a85c70eb957d1122, type: 3}
       propertyPath: objToToggle
+      value: 
+      objectReference: {fileID: 2017716096}
+    - target: {fileID: 4744246982489189030, guid: a6d980f1f1e894d4a85c70eb957d1122, type: 3}
+      propertyPath: objToSetActive
       value: 
       objectReference: {fileID: 2017716096}
     m_RemovedComponents: []
@@ -32414,6 +32462,18 @@ MonoBehaviour:
   Event:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 297125735}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 1045981745}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
@@ -79255,6 +79315,10 @@ PrefabInstance:
       objectReference: {fileID: 788505196}
     - target: {fileID: 4744246982489189030, guid: a6d980f1f1e894d4a85c70eb957d1122, type: 3}
       propertyPath: objToToggle
+      value: 
+      objectReference: {fileID: 2017716096}
+    - target: {fileID: 4744246982489189030, guid: a6d980f1f1e894d4a85c70eb957d1122, type: 3}
+      propertyPath: objToSetActive
       value: 
       objectReference: {fileID: 2017716096}
     m_RemovedComponents: []
@@ -159848,6 +159912,10 @@ PrefabInstance:
       propertyPath: objToToggle
       value: 
       objectReference: {fileID: 2017716096}
+    - target: {fileID: 4744246982489189030, guid: a6d980f1f1e894d4a85c70eb957d1122, type: 3}
+      propertyPath: objToSetActive
+      value: 
+      objectReference: {fileID: 2017716096}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: a6d980f1f1e894d4a85c70eb957d1122, type: 3}
@@ -171702,6 +171770,10 @@ PrefabInstance:
       propertyPath: objToToggle
       value: 
       objectReference: {fileID: 2017716096}
+    - target: {fileID: 4744246982489189030, guid: a6d980f1f1e894d4a85c70eb957d1122, type: 3}
+      propertyPath: objToSetActive
+      value: 
+      objectReference: {fileID: 2017716096}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: a6d980f1f1e894d4a85c70eb957d1122, type: 3}
@@ -172156,22 +172228,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CurrentIDCounter: 28
-  json: "{\"Options\":[],\"Parameters\":[],\"SpeechNodes\":[{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":6}],\"EditorInfo\":{\"isRoot\":true,\"xPos\":111.5,\"yPos\":-1381},\"ID\":0,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"I
-    can't believe you're still here!\",\"parentUIDs\":[],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Enola\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":7}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":112.5,\"yPos\":-1283},\"ID\":6,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"I
-    got lost on the way out, I swear! I'm not taking anymore flowers.\",\"parentUIDs\":[0],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"...\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":8}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":113.5,\"yPos\":-1182.99988},\"ID\":7,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"What
-    do you even need them for? You mentioned some kind of project?\",\"parentUIDs\":[6],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Enola\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":14}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":115.5,\"yPos\":-1077.99976},\"ID\":8,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"It\u2019s
-    kind of weird. I found this recipe online... a potion. For loneliness.\",\"parentUIDs\":[7],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Skye\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":15}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":118.166687,\"yPos\":-976.333252},\"ID\":14,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Loneliness?\",\"parentUIDs\":[8],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Enola\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":17}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":121.166687,\"yPos\":-869.3333},\"ID\":15,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Yeah.
-    I said it was weird. Whatever.\",\"parentUIDs\":[14],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"...\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":18}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":122.166687,\"yPos\":-764.3334},\"ID\":17,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Where
-    did you find the recipe?\\n\",\"parentUIDs\":[15],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Enola\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":19}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":123.166687,\"yPos\":-666.3333},\"ID\":18,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Some
-    half-broken blog. It looked old. Had that fake parchment background and everything.\",\"parentUIDs\":[17],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"...\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":20}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":126.166687,\"yPos\":-565.3334},\"ID\":19,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"See:
-    13 petals from a magnolia flower, picked by moonlight. 7 drops of -\\n\",\"parentUIDs\":[18],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"...\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":21}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":125.166687,\"yPos\":-461.333374},\"ID\":20,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"
-    - wait. I know this exact recipe. I found it too. In my grandmother\u2019s spellbook.\",\"parentUIDs\":[19],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Enola\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":22}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":127.166687,\"yPos\":-361.333374},\"ID\":21,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Are
-    you saying we\u2019re doing the same thing?\\n\",\"parentUIDs\":[20],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"...\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":23}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":125.333344,\"yPos\":-258.333374},\"ID\":22,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"
-    It\u2019s not the same. Yours came from the internet. Mine is real.\",\"parentUIDs\":[21],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Enola\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":24}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":124.333344,\"yPos\":-153.333374},\"ID\":23,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"
-    Maybe they\u2019re both real. Maybe you and I just had the same idea.\",\"parentUIDs\":[22],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"...\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":25}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":128.333344,\"yPos\":-38.333374},\"ID\":24,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"That's
-    unlikely.\",\"parentUIDs\":[23],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Enola\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":26}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":127.333344,\"yPos\":67.666626},\"ID\":25,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"
-    Or... weirdly meant to be?\",\"parentUIDs\":[24],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"...\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":27}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":128.333344,\"yPos\":165.666626},\"ID\":26,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"You're
-    crazy.\",\"parentUIDs\":[25],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Enola\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[],\"EditorInfo\":{\"isRoot\":false,\"xPos\":129.333344,\"yPos\":266.666626},\"ID\":27,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Come
+  json: "{\"Options\":[],\"Parameters\":[],\"SpeechNodes\":[{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":6}],\"EditorInfo\":{\"isRoot\":true,\"xPos\":228.5,\"yPos\":-1289},\"ID\":0,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"I
+    can't believe you're still here!\",\"parentUIDs\":[],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Enola\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":7}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":229.5,\"yPos\":-1191},\"ID\":6,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"I
+    got lost on the way out, I swear! I'm not taking anymore flowers.\",\"parentUIDs\":[0],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"...\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":8}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":230.5,\"yPos\":-1090.99988},\"ID\":7,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"What
+    do you even need them for? You mentioned some kind of project?\",\"parentUIDs\":[6],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Enola\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":14}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":232.5,\"yPos\":-985.999756},\"ID\":8,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"It\u2019s
+    kind of weird. I found this recipe online... a potion. For loneliness.\",\"parentUIDs\":[7],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Skye\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":15}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":235.166687,\"yPos\":-884.333252},\"ID\":14,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Loneliness?\",\"parentUIDs\":[8],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Enola\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":17}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":238.166687,\"yPos\":-777.3333},\"ID\":15,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Yeah.
+    I said it was weird. Whatever.\",\"parentUIDs\":[14],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"...\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":18}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":239.166687,\"yPos\":-672.3334},\"ID\":17,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Where
+    did you find the recipe?\\n\",\"parentUIDs\":[15],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Enola\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":19}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":240.166687,\"yPos\":-574.3333},\"ID\":18,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Some
+    half-broken blog. It looked old. Had that fake parchment background and everything.\",\"parentUIDs\":[17],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"...\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":20}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":243.166687,\"yPos\":-473.333374},\"ID\":19,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"See:
+    13 petals from a magnolia flower, picked by moonlight. 7 drops of -\\n\",\"parentUIDs\":[18],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"...\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":21}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":242.166687,\"yPos\":-369.333374},\"ID\":20,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"
+    - wait. I know this exact recipe. I found it too. In my grandmother\u2019s spellbook.\",\"parentUIDs\":[19],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Enola\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":22}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":244.166687,\"yPos\":-269.333374},\"ID\":21,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Are
+    you saying we\u2019re doing the same thing?\\n\",\"parentUIDs\":[20],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"...\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":23}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":242.333344,\"yPos\":-166.333374},\"ID\":22,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"
+    It\u2019s not the same. Yours came from the internet. Mine is real.\",\"parentUIDs\":[21],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Enola\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":24}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":241.333344,\"yPos\":-61.333374},\"ID\":23,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"
+    Maybe they\u2019re both real. Maybe you and I just had the same idea.\",\"parentUIDs\":[22],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"...\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":25}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":245.333344,\"yPos\":53.666626},\"ID\":24,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"That's
+    unlikely.\",\"parentUIDs\":[23],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Enola\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":26}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":244.333344,\"yPos\":159.666626},\"ID\":25,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"
+    Or... weirdly meant to be?\",\"parentUIDs\":[24],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"...\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":27}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":245.333344,\"yPos\":257.666626},\"ID\":26,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"You're
+    crazy.\",\"parentUIDs\":[25],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Enola\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[],\"EditorInfo\":{\"isRoot\":false,\"xPos\":246.333344,\"yPos\":358.666626},\"ID\":27,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Come
     on, I'll show you the way out. But first we have to stop by the big field.\",\"parentUIDs\":[26],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Enola\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0}]}"
   saveVersion: 110
   DefaultName: Enola
@@ -173243,7 +173315,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2017716097
 Transform:
   m_ObjectHideFlags: 0
@@ -175530,6 +175602,10 @@ PrefabInstance:
       objectReference: {fileID: 788505196}
     - target: {fileID: 4744246982489189030, guid: a6d980f1f1e894d4a85c70eb957d1122, type: 3}
       propertyPath: objToToggle
+      value: 
+      objectReference: {fileID: 2017716096}
+    - target: {fileID: 4744246982489189030, guid: a6d980f1f1e894d4a85c70eb957d1122, type: 3}
+      propertyPath: objToSetActive
       value: 
       objectReference: {fileID: 2017716096}
     m_RemovedComponents:

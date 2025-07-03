@@ -1,6 +1,8 @@
-
-using System;
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
+using DialogueEditor;
+using System;
 
 public class Collectible : MonoBehaviour
 {
@@ -8,7 +10,9 @@ public class Collectible : MonoBehaviour
 
     public bool collectingAllowed = false;
 
-    public static int total;
+
+    public static int total = 0;
+
 
     void Awake() => total++;
 
@@ -44,6 +48,9 @@ public class Collectible : MonoBehaviour
                 Destroy(this.gameObject);
 
             }
+
+
+
         }
 
     }

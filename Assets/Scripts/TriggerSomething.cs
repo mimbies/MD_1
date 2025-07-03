@@ -6,7 +6,10 @@ using DialogueEditor;
 public class TriggerSomething : MonoBehaviour
 {
 
+
     [SerializeField] private NPCConversation myConvo;
+
+     
 
     /// <summary>
     /// Sent when another object enters a trigger collider attached to

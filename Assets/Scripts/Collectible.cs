@@ -12,7 +12,7 @@ public class Collectible : MonoBehaviour
 
     public GameObject objToSetActive;
 
-    CollectibleCount Ccount;
+    public CollectibleCount Ccount;
 
 
     public static int total = 0;

@@ -35,4 +35,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/HouseTwo.unity
     guid: 4c729e32212111940af909ea32b09742
+  - enabled: 1
+    path: Assets/Scenes/CatchTheStars.unity
+    guid: 5c31993b1dae557469cd470745984b43
   m_configObjects: {}

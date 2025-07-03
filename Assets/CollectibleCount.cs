@@ -5,7 +5,8 @@ using UnityEngine;
 public class CollectibleCount : MonoBehaviour
 {
     TMPro.TMP_Text text;
-    int count;
+
+    public int count = 0;
 
     void Awake()
     {
@@ -20,6 +21,7 @@ public class CollectibleCount : MonoBehaviour
     {
         count++;
         UpdateCount();
+
     }
 
     void UpdateCount()

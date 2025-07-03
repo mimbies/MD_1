@@ -14,11 +14,18 @@ public class Collectible : MonoBehaviour
 
     public CollectibleCount Ccount;
 
+    private AudioSource audioSource;
+
 
     public static int total = 0;
 
 
     void Awake() => total++;
+
+    void Start()
+    {
+        audioSource = GetComponent<AudioSource>();
+    }
 
 
 
@@ -47,9 +54,10 @@ public class Collectible : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.Space) && collectingAllowed)
             {
+                audioSource.Play();
                 Debug.Log("Detected KeyInput");
                 OnCollected?.Invoke();
-                Destroy(this.gameObject);
+                Destroy(this.gameObject, audioSource.clip.length);
 
             }
 

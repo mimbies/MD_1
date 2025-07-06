@@ -235,7 +235,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 0.9575
+  orthographic size: 1.0266666
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -388,6 +388,8 @@ MonoBehaviour:
   moveSpeed: 2
   direction: 0
   isWalking: 0
+  speed: 0
+  target: {fileID: 0}
 --- !u!50 &1780325032
 Rigidbody2D:
   serializedVersion: 4
@@ -403,7 +405,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1

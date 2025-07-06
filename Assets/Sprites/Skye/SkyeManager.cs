@@ -5,26 +5,37 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody2D))]
 public class SkyeManager : MonoBehaviour
 {
-    public int direction;
     public bool isWalking;
-    public Rigidbody2D rb;
     
     private Animator anim;
     private SpriteRenderer sprite;
 
-    [SerializeField] private float speed;
+    [SerializeField] private float speed = 4;
     [SerializeField] private Transform target;
+    [SerializeField] public bool followActive = false;
     private Vector3 previousPosition;
 
     private void Start()
     {
-        rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         sprite = GetComponent<SpriteRenderer>();
         previousPosition = transform.position;
     }
 
     private void Update()
+    {
+        if (followActive)
+        {
+            FollowPlayer();
+        }
+    }
+
+    public void EnableFollow()
+    {
+        followActive = true;
+    }
+
+    private void FollowPlayer()
     {
         var distance = Vector2.Distance(transform.position, target.position);
         var movement = Vector2.MoveTowards(transform.position, target.position, speed * Time.deltaTime);
@@ -33,7 +44,8 @@ public class SkyeManager : MonoBehaviour
         {
             transform.position = movement;
             anim.SetBool("isWalking", true);
-        } else
+        }
+        else
         {
             anim.SetBool("isWalking", false);
         }
@@ -49,5 +61,4 @@ public class SkyeManager : MonoBehaviour
 
         previousPosition = currentPosition;
     }
-
 }

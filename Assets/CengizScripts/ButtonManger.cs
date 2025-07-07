@@ -48,7 +48,7 @@ public class ButtonManger : MonoBehaviour
 
             currentInput.Add(id);
             spotlights[correctOrder.IndexOf(id)].GetComponent<Light2D>().enabled = true;
-            spotlights[correctOrder.IndexOf(id)].GetComponent<Light2D>().color = Color.yellow;
+            spotlights[correctOrder.IndexOf(id)].GetComponent<Light2D>().color = new Color(1f, 0.243f, 0f);
             lights[correctOrder.IndexOf(id)].GetComponent<SpriteRenderer>().color = Color.yellow;
             
 
@@ -58,7 +58,7 @@ public class ButtonManger : MonoBehaviour
         lights[correctOrder.IndexOf(id)].GetComponent<SpriteRenderer>().color = Color.yellow;
 
         spotlights[correctOrder.IndexOf(id)].GetComponent<Light2D>().enabled = true;
-        spotlights[correctOrder.IndexOf(id)].GetComponent<Light2D>().color = Color.yellow;
+        spotlights[correctOrder.IndexOf(id)].GetComponent<Light2D>().color = new Color(1f, 0.243f, 0f);
 
 
 

@@ -16597,13 +16597,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   otherSkye: {fileID: 951565684}
-  speed: 10
+  speed: 6
   triggerLocation2: {x: -4.1, y: 11.8, z: -0.7765545}
-  triggerDirectionSection2: {x: 0, y: 0, z: 0}
-  triggerDirection2: {x: 0, y: 0, z: 0}
+  triggerDirectionSection2: {x: 13.57, y: 1.22, z: -0.7765545}
+  triggerDirection2: {x: 12.62, y: 8.03, z: -0.7765545}
   triggerLocation3: {x: -19.1, y: -8.1, z: -0.7765545}
-  triggerDirectionSection3: {x: 0, y: 0, z: 0}
-  triggerDirection3: {x: 0, y: 0, z: 0}
+  triggerDirectionSection3: {x: -9.14, y: 12.07, z: -0.7765545}
+  triggerDirection3: {x: -9.83, y: 16.26, z: -0.7765545}
 --- !u!95 &586063124
 Animator:
   serializedVersion: 4

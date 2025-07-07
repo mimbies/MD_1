@@ -50,6 +50,7 @@ public class PlacingSkyeSprite : MonoBehaviour
                 isTriggered2 = false;
                 anim.SetBool("isWalking", false);
                 transform.position = triggerLocation2;
+                skye.flipX = false;
             }
         }
 

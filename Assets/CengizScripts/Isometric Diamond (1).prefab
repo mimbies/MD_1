@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 2114833848095945370}
   - component: {fileID: 3123872392794650871}
   - component: {fileID: 3568223321478382768}
+  - component: {fileID: 7217294847989045685}
   m_Layer: 0
   m_Name: Isometric Diamond (1)
   m_TagString: Untagged
@@ -30,13 +31,13 @@ Transform:
   m_GameObject: {fileID: 3123872392794650865}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.039, y: 1.32, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 5, y: 5, z: 5}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 6496332421705468069}
   - {fileID: 6496332421623550105}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &5198029366819745917
 SpriteRenderer:
@@ -79,7 +80,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 3625043607559282579, guid: 19fb86013d8c24d6cb8410c0aadf30fa, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6e692c1f7a9b96445a2c9145db9a9dc2, type: 3}
   m_Color: {r: 1, g: 0.91147983, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -128,7 +129,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 0.5}
+    oldSize: {x: 0.2, y: 0.2}
     newSize: {x: 1, y: 0.5}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -161,7 +162,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5383562068054d4596cc9f8f50c072e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  inputButton: Submit
   disappearSpeed: 2
+--- !u!114 &7217294847989045685
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3123872392794650865}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2cff9f235ae47649800d8cb8ff0c2af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  collectingAllowed: 0
+  objToSetActive: {fileID: 0}
+  Ccount: {fileID: 0}
 --- !u!1 &6496332421623550104
 GameObject:
   m_ObjectHideFlags: 0

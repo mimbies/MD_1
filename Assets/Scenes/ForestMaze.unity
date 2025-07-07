@@ -5353,7 +5353,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 214616807}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -32.09, y: -29.32, z: 0}
+  m_LocalPosition: {x: -28.08, y: -32.93, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5397,7 +5397,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 4.002987, y: 4.553669}
+  m_Size: {x: 2, y: 2}
   m_EdgeRadius: 0
 --- !u!1 &227632060
 GameObject:
@@ -16262,11 +16262,11 @@ MonoBehaviour:
   otherSkye: {fileID: 951565684}
   speed: 10
   triggerLocation2: {x: -4.1, y: 11.8, z: -0.7765545}
-  triggerDirectionSection2: {x: 13.52, y: 2.15, z: -0.7765545}
-  triggerDirection2: {x: 12.77, y: 12.01, z: -0.7765545}
+  triggerDirectionSection2: {x: 0, y: 0, z: 0}
+  triggerDirection2: {x: 0, y: 0, z: 0}
   triggerLocation3: {x: -19.1, y: -8.1, z: -0.7765545}
-  triggerDirectionSection3: {x: -9.05, y: 11.8, z: -0.7765545}
-  triggerDirection3: {x: -10.91, y: 17.82, z: -0.7765545}
+  triggerDirectionSection3: {x: 0, y: 0, z: 0}
+  triggerDirection3: {x: 0, y: 0, z: 0}
 --- !u!95 &586063124
 Animator:
   serializedVersion: 4
@@ -78691,7 +78691,6 @@ GameObject:
   - component: {fileID: 1494578849}
   - component: {fileID: 1494578850}
   - component: {fileID: 1494578848}
-  - component: {fileID: 1494578853}
   - component: {fileID: 1494578852}
   - component: {fileID: 1494578851}
   m_Layer: 0
@@ -78815,25 +78814,6 @@ MonoBehaviour:
   NodeID: 3
   TMPFont: {fileID: 0}
   Icon: {fileID: 21300000, guid: 8e4d5b735ca3c96468392155dafa49f3, type: 3}
-  Audio: {fileID: 0}
---- !u!114 &1494578853
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1494578847}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Event:
-    m_PersistentCalls:
-      m_Calls: []
-  NodeID: 2
-  TMPFont: {fileID: 0}
-  Icon: {fileID: 0}
   Audio: {fileID: 0}
 --- !u!1 &1495433806
 GameObject:
@@ -173562,9 +173542,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CurrentIDCounter: 5
-  json: '{"Options":[{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":3}],"EditorInfo":{"isRoot":false,"xPos":442.5,"yPos":157},"ID":2,"ParamActions":[],"TMPFontGUID":null,"Text":"(sigh..)","parentUIDs":[1],"SpeechUID":-1}],"Parameters":[],"SpeechNodes":[{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":1}],"EditorInfo":{"isRoot":true,"xPos":420,"yPos":-184},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":".........","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":1},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":2}],"EditorInfo":{"isRoot":false,"xPos":427.5,"yPos":-6},"ID":1,"ParamActions":[],"TMPFontGUID":null,"Text":"You''re
-    joking.","parentUIDs":[0],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Enola","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":4}],"EditorInfo":{"isRoot":false,"xPos":396.5,"yPos":273},"ID":3,"ParamActions":[],"TMPFontGUID":null,"Text":"Luckily
-    the magnolias I need for the potion can also help me refuel the lamp.","parentUIDs":[2],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Enola","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":409.5,"yPos":414},"ID":4,"ParamActions":[],"TMPFontGUID":null,"Text":"If
+  json: '{"Options":[],"Parameters":[],"SpeechNodes":[{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":1}],"EditorInfo":{"isRoot":true,"xPos":88,"yPos":-220.999969},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":".........","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":3}],"EditorInfo":{"isRoot":false,"xPos":95.5,"yPos":-42.99997},"ID":1,"ParamActions":[],"TMPFontGUID":null,"Text":"You''re
+    joking.","parentUIDs":[0],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Enola","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":4}],"EditorInfo":{"isRoot":false,"xPos":66.5,"yPos":82.99999},"ID":3,"ParamActions":[],"TMPFontGUID":null,"Text":"Luckily
+    the magnolias I need for the potion can also help me refuel the lamp.","parentUIDs":[1],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Enola","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":67.5,"yPos":208.000015},"ID":4,"ParamActions":[],"TMPFontGUID":null,"Text":"If
     only this wasn''t a literal maze!","parentUIDs":[3],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Enola","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0}]}'
   saveVersion: 110
   DefaultName: Witch
@@ -173573,7 +173553,6 @@ MonoBehaviour:
   NodeSerializedDataList:
   - {fileID: 1494578850}
   - {fileID: 1494578848}
-  - {fileID: 1494578853}
   - {fileID: 1494578852}
   - {fileID: 1494578851}
   ContinueFont: {fileID: 0}
@@ -175623,11 +175602,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2221445038965731596, guid: 4c98dfead9c5d6a408e9251847d02d40, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -19.4
+      value: -15.54
       objectReference: {fileID: 0}
     - target: {fileID: 2221445038965731596, guid: 4c98dfead9c5d6a408e9251847d02d40, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -8.6
+      value: -12.66
       objectReference: {fileID: 0}
     - target: {fileID: 2221445038965731596, guid: 4c98dfead9c5d6a408e9251847d02d40, type: 3}
       propertyPath: m_LocalPosition.z

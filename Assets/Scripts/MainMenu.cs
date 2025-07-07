@@ -42,7 +42,7 @@ public class MainMenu : MonoBehaviour
         kapitelPanel.SetActive(true);
         overlay.SetActive(true);
 
-        EventSystem.current.SetSelectedGameObject(null); 
+        EventSystem.current.SetSelectedGameObject(null);
         EventSystem.current.SetSelectedGameObject(forestButton.gameObject);
     }
     public void closeChapterSelection()
@@ -68,6 +68,11 @@ public class MainMenu : MonoBehaviour
         SceneManager.LoadScene("HouseTwo");
     }
 
+    public void CatchTheStarsScene()
+    {
+        SceneManager.LoadScene("CatchTheStars");
+    }
+
 
     public void credits()
     {
@@ -78,7 +83,10 @@ public class MainMenu : MonoBehaviour
     {
         SceneManager.LoadScene("Menu");
     }
-
+    public void loadButtonPuzzle()
+    {
+        SceneManager.LoadScene("Buttonpuzzle");
+    }
 
 
 

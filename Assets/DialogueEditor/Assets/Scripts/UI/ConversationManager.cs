@@ -425,25 +425,23 @@ namespace DialogueEditor
 
             if (m_uiOptions.Count > 0)
             {
-
-
-                if (Time.time - lastInputTime >= inputCooldown) //Time.time gibt die aktuelle spielzeit 
+                if (Time.time - lastInputTime >= inputCooldown)
                 {
-
-                    if (Input.GetAxisRaw("Vertical") < 0)
-                    {
-                        lastInputTime = Time.time;
-                        NavigateOptions(-1);
-                    }
-                    else if (Input.GetAxisRaw("Vertical") > 0)
+                    // ↓ oder → navigiert vorwärts
+                    if (Input.GetAxisRaw("Vertical") < 0 || Input.GetAxisRaw("Horizontal") > 0)
                     {
                         lastInputTime = Time.time;
                         NavigateOptions(1);
                     }
-
+                    // ↑ oder ← navigiert zurück
+                    else if (Input.GetAxisRaw("Vertical") > 0 || Input.GetAxisRaw("Horizontal") < 0)
+                    {
+                        lastInputTime = Time.time;
+                        NavigateOptions(-1);
+                    }
                 }
-
             }
+
         }
 
         private void TryHandleEnterPress()
@@ -764,39 +762,6 @@ namespace DialogueEditor
                     }
                 }
             }
-            // Display Continue/End options
-            else
-            {
-                bool notAutoAdvance = !m_currentSpeech.AutomaticallyAdvance;
-                bool allowVisibleOptionWithAuto = (m_currentSpeech.AutomaticallyAdvance && m_currentSpeech.AutoAdvanceShouldDisplayOption);
-
-                if (notAutoAdvance || allowVisibleOptionWithAuto)
-                {
-                    if (m_currentSpeech.ConnectionType == Connection.eConnectionType.Speech)
-                    {
-                        UIConversationButton uiOption = CreateButton();
-                        SpeechNode next = GetValidSpeechOfNode(m_currentSpeech);
-
-                        // If there was no valid speech node (due to no conditions being met) this becomes a None button type
-                        if (next == null)
-                        {
-                            uiOption.SetupButton(UIConversationButton.eButtonType.End, null, endFont: m_conversation.EndConversationFont);
-                        }
-                        // Else, valid speech node found
-                        else
-                        {
-                            uiOption.SetupButton(UIConversationButton.eButtonType.Speech, next, continueFont: m_conversation.ContinueFont);
-                        }
-
-                    }
-                    else if (m_currentSpeech.ConnectionType == Connection.eConnectionType.None)
-                    {
-                        UIConversationButton uiOption = CreateButton();
-                        uiOption.SetupButton(UIConversationButton.eButtonType.End, null, endFont: m_conversation.EndConversationFont);
-                    }
-                }
-
-            }
             SetSelectedOption(0);
 
             // Set the button sprite and alpha
@@ -807,6 +772,7 @@ namespace DialogueEditor
                 m_uiOptions[i].gameObject.SetActive(false);
             }
         }
+
 
         private void ClearOptions()
         {

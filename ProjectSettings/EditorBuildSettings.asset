@@ -26,10 +26,19 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Credits.unity
     guid: a1b0d187740a7274fae59fbb45b196ea
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/ForestMaze.unity
-    guid: 2f84d0e35cfe4524bbec698126b332aa
+    guid: cea4ab1c896bd47489ad396ccf226a6d
   - enabled: 1
     path: Assets/Scenes/HouseTwo.unity
     guid: 4c729e32212111940af909ea32b09742
+  - enabled: 1
+    path: Assets/Scenes/CatchTheStars.unity
+    guid: 5c31993b1dae557469cd470745984b43
+  - enabled: 1
+    path: Assets/Scenes/Buttonpuzzle.unity
+    guid: 2384944490760364081d81e3d3d9795b
   m_configObjects: {}

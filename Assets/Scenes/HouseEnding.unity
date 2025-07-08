@@ -10475,7 +10475,7 @@ MonoBehaviour:
   moveSpeed: 3
   rb: {fileID: 1165625024}
   smoothspeed: 0
-  dustEffectPrefab: {fileID: 0}
+  dustEffectPrefab: {fileID: 6763633974000323791, guid: 3daf000f814af304a82700252fdc99fb, type: 3}
   cam: {fileID: 1126441774}
   fov: 90
   healt: 0

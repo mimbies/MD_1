@@ -63,7 +63,7 @@ public class PlacingSkyeSprite : MonoBehaviour
                 isTriggered3 = true;
             }
         }
-        
+
         if (isTriggered3)
         {
             SkyeRunTo(triggerDirection3);

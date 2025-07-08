@@ -17,7 +17,7 @@ public class PlayerMovement : MonoBehaviour
 
     //partikel 
     public GameObject dustEffectPrefab;
-    private bool canSpawnDust= true;
+    private bool canSpawnDust = true;
 
 
     //sound
@@ -82,7 +82,7 @@ public class PlayerMovement : MonoBehaviour
                 anim.Play("idle");
             }
             return;
-        } 
+        }
 
         //movement
         float movex = Input.GetAxisRaw("Horizontal");
@@ -173,13 +173,20 @@ public class PlayerMovement : MonoBehaviour
 
     }
 
-    
+
     public void takeDamage(float schaden)
     {
 
 
 
 
+
+    }
+
+    public void increaseMovementSpeed()
+    {
+
+        moveSpeed = 5f;
 
     }
 

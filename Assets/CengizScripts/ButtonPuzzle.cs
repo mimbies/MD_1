@@ -10,7 +10,9 @@ public class ButtonPuzzle : MonoBehaviour
     private SpriteRenderer sr;
     private ButtonManger manager;
     private Color originalColor;
-    
+
+    private AudioSource audioSource;
+
 
 
     // Start is called before the first frame update
@@ -19,12 +21,15 @@ public class ButtonPuzzle : MonoBehaviour
         sr = GetComponent<SpriteRenderer>();
         originalColor = sr.color;
         manager = FindObjectOfType<ButtonManger>();
+        audioSource = GetComponent<AudioSource>();
+
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
     public void ResetButton()
@@ -43,13 +48,13 @@ public class ButtonPuzzle : MonoBehaviour
 
         if (isPressed) return;
 
-        if (other.CompareTag("Player")) 
+        if (other.CompareTag("Player"))
         {
 
             isPressed = true;
 
+            audioSource.Play();
 
-            
             sr.color = originalColor * 0.5f;
 
             manager.ButtonPressed(buttonID);

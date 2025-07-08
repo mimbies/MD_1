@@ -30,6 +30,17 @@ public class SkyeManager : MonoBehaviour
         }
     }
 
+    private void LateUpdate()
+    {
+        if (transform.position.y < target.position.y)
+        {
+            sprite.sortingOrder = target.GetComponent<SpriteRenderer>().sortingOrder + 1;
+        } else
+        {
+            sprite.sortingOrder = target.GetComponent<SpriteRenderer>().sortingOrder - 1;
+        }
+    }
+
     public void EnableFollow()
     {
         followActive = true;

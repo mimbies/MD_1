@@ -34,10 +34,10 @@ public class SkyeManager : MonoBehaviour
     {
         if (transform.position.y < target.position.y)
         {
-            sprite.sortingOrder = 1;
+            sprite.sortingOrder = target.GetComponent<SpriteRenderer>().sortingOrder + 1;
         } else
         {
-            sprite.sortingOrder = -1;
+            sprite.sortingOrder = target.GetComponent<SpriteRenderer>().sortingOrder - 1;
         }
     }
 

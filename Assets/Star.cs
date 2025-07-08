@@ -6,17 +6,15 @@ public class Star : MonoBehaviour
 {
 
     private GameObject shadow;
-    //für späteren sound 
-    //public AudioClip collectedSound;
-    //private AudioSource audioSource;
+
+
+    private AudioSource audioSource;
 
 
     // Start is called before the first frame update
     void Start()
     {
-        //für späteren sound 
-        //audioSource = gameObject.AddComponent<AudioSource>();
-        //audioSource.playOnAwake = false;
+        audioSource = GetComponent<AudioSource>();
 
     }
 
@@ -25,17 +23,18 @@ public class Star : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            //für späteren sound 
-            //if (collectedSound != null)
-            //{
-            //    audioSource.PlayOneShot(collectedSound);
-            //}
+
+            if (audioSource)
+            {
+                audioSource.Play();
+            }
+
 
 
             GetComponent<SpriteRenderer>().enabled = false;
             GetComponent<Collider2D>().enabled = false;
             Destroy(shadow);
-            Destroy(gameObject, 0.5f);
+            Destroy(gameObject, audioSource.clip.length);
         }
     }
 

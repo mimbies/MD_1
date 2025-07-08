@@ -41,4 +41,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Buttonpuzzle.unity
     guid: 2384944490760364081d81e3d3d9795b
+  - enabled: 1
+    path: Assets/Scenes/HouseEnding.unity
+    guid: fe2058b2e5e8d184b9050c5e39dd482e
   m_configObjects: {}

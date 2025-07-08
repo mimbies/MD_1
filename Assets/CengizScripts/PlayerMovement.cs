@@ -13,11 +13,11 @@ public class PlayerMovement : MonoBehaviour
     Vector2 movement;
     Vector2 inputVector;
     Vector2 inputVelo;
-
+    float lastMoveX;
 
     //partikel 
     public GameObject dustEffectPrefab;
-    private bool canSpawnDust= true;
+    private bool canSpawnDust = true;
 
 
     //sound
@@ -82,17 +82,22 @@ public class PlayerMovement : MonoBehaviour
                 anim.Play("idle");
             }
             return;
-        } 
+        }
 
         //movement
         float movex = Input.GetAxisRaw("Horizontal");
         float movey = Input.GetAxisRaw("Vertical");
         movement = new Vector2(movex, movey).normalized;
 
-        //animation
-        if(movement.magnitude != 0)
+        if (movex != 0)
         {
-            GetComponent<SpriteRenderer>().flipX = movex < 0;
+            lastMoveX = movex;
+        }
+
+        //animation
+        if (movement.magnitude != 0)
+        {
+            GetComponent<SpriteRenderer>().flipX = lastMoveX < 0;
 
             //partikel--------------------------------------------------
             if (canSpawnDust)
@@ -145,7 +150,10 @@ public class PlayerMovement : MonoBehaviour
 
 
 
-
+    public void FlipEnola()
+    {
+        GetComponent<SpriteRenderer>().flipX = !GetComponent<SpriteRenderer>().flipX;
+    }
 
 
 
@@ -165,13 +173,20 @@ public class PlayerMovement : MonoBehaviour
 
     }
 
-    
+
     public void takeDamage(float schaden)
     {
 
 
 
 
+
+    }
+
+    public void increaseMovementSpeed()
+    {
+
+        moveSpeed = 5f;
 
     }
 

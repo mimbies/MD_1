@@ -8,7 +8,7 @@ public class StarSpawner : MonoBehaviour
     public GameObject star;
     public GameObject shadow;
     [SerializeField] float flyingTime = 5f;
-    
+
 
 
     // Start is called before the first frame update
@@ -24,7 +24,7 @@ public class StarSpawner : MonoBehaviour
         while (true)
         {
             SpawnStarAndShadow();
-            yield return new WaitForSeconds(4f);
+            yield return new WaitForSeconds(1f);
         }
     }
 
@@ -57,7 +57,7 @@ public class StarSpawner : MonoBehaviour
 
 
 
-        
+
 
 
 
@@ -85,7 +85,7 @@ public class StarSpawner : MonoBehaviour
         Destroy(shadowGameObject, 4f);
 
 
-        //stern bewegen klappt aber unschön 
+        //stern bewegen klappt aber unschï¿½n 
         //StartCoroutine(MoveAlongVector(starGameObject.transform, vector, flyingTime));
 
     }
@@ -93,7 +93,7 @@ public class StarSpawner : MonoBehaviour
     IEnumerator AnimateShadow(GameObject shadow, float duration)
     {
         SpriteRenderer shadowSprite = shadow.GetComponent<SpriteRenderer>();
-        Transform shadowTransform = shadow.transform; 
+        Transform shadowTransform = shadow.transform;
 
         float timeElapsed = 0f;
 
@@ -129,8 +129,8 @@ public class StarSpawner : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-       
-        
+
+
     }
 
     IEnumerator MoveAlongVector(Transform starTransform, Vector2 vector, float duration)
@@ -155,7 +155,7 @@ public class StarSpawner : MonoBehaviour
     Vector2 MakeVector()
     {
         float angle = Random.Range(180f, 360f);  //winkelbereich
-        float rad = angle * Mathf.Deg2Rad; //umwandlung in bogenmaß 
+        float rad = angle * Mathf.Deg2Rad; //umwandlung in bogenmaï¿½ 
 
         Vector2 vec = new Vector2(Mathf.Cos(rad), Mathf.Sin(rad)).normalized;
 
@@ -166,18 +166,18 @@ public class StarSpawner : MonoBehaviour
 
     Vector2 getStartingPoint(Vector2 vector)
     {
-        //ZielRechteck (map Größe) 
-        Vector2 buttomLeft = new Vector2(-8f,-4f); 
-        Vector2 topRight = new Vector2(8f,3f);
+        //ZielRechteck (map Grï¿½ï¿½e) 
+        Vector2 buttomLeft = new Vector2(-8f, -4f);
+        Vector2 topRight = new Vector2(8f, 3f);
 
-        Vector2 vectorEnd = new Vector2(Random.Range(buttomLeft.x,topRight.x), Random.Range(buttomLeft.y,topRight.y));
+        Vector2 vectorEnd = new Vector2(Random.Range(buttomLeft.x, topRight.x), Random.Range(buttomLeft.y, topRight.y));
 
         Vector2 vectorStart = vectorEnd - vector;
 
         //malen zum debuggen
         Debug.DrawLine(vectorStart, vectorEnd, Color.red, 10f);
 
-        return vectorStart; 
+        return vectorStart;
 
 
     }

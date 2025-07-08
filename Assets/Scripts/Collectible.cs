@@ -52,7 +52,7 @@ public class Collectible : MonoBehaviour
     void Update()
     {
         {
-            if (Input.GetKeyDown(KeyCode.Space) && collectingAllowed)
+            if (Input.GetButtonDown("Submit") && collectingAllowed)
             {
                 audioSource.Play();
                 Debug.Log("Detected KeyInput");

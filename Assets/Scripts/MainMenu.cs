@@ -87,7 +87,10 @@ public class MainMenu : MonoBehaviour
     {
         SceneManager.LoadScene("Buttonpuzzle");
     }
-
+    public void loadPotionEnd()
+    {
+        SceneManager.LoadScene("HouseEnding");
+    }
 
 
 

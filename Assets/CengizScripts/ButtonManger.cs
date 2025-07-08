@@ -15,16 +15,18 @@ public class ButtonManger : MonoBehaviour
 
     private Color lightOriginalColor;
 
+    public GameObject objToSetActive;
+
     void Start()
     {
-       lightOriginalColor = lights[0].GetComponent<SpriteRenderer>().color;
+        lightOriginalColor = lights[0].GetComponent<SpriteRenderer>().color;
 
-        foreach(GameObject light in lights)
+        foreach (GameObject light in lights)
         {
             Light2D childLight = light.GetComponentInChildren<Light2D>();
             spotlights.Add(childLight);
         }
-        foreach(Light2D light in spotlights)
+        foreach (Light2D light in spotlights)
         {
             light.enabled = false;
         }
@@ -38,10 +40,10 @@ public class ButtonManger : MonoBehaviour
         if (currentInput.Count == 0)
         {
             startIndex = correctOrder.IndexOf(id);
-            ///-----------------------hääääääää digga? 
+            ///-----------------------hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ digga? 
             if (startIndex == -1)
             {
-                Debug.Log("Ungültiger Startknopf!");
+                Debug.Log("Ungï¿½ltiger Startknopf!");
                 ResetButtons(id);
                 return;
             }
@@ -50,7 +52,7 @@ public class ButtonManger : MonoBehaviour
             spotlights[correctOrder.IndexOf(id)].GetComponent<Light2D>().enabled = true;
             spotlights[correctOrder.IndexOf(id)].GetComponent<Light2D>().color = new Color(1f, 0.243f, 0f);
             lights[correctOrder.IndexOf(id)].GetComponent<SpriteRenderer>().color = Color.yellow;
-            
+
 
             return;
         }
@@ -80,16 +82,16 @@ public class ButtonManger : MonoBehaviour
         //{
         //    if (currentInput[i] != correctOrder[i])
         //    {
-                
+
         //        ResetButtons();
         //        return;
         //    }
         //}
         ////----------------------------------------------------------------
-        
+
         if (currentInput.Count == correctOrder.Count)
         {
-            Debug.Log("Puzzle gelöst!");
+            Debug.Log("Puzzle gelï¿½st!");
 
             foreach (var button in buttons)
             {
@@ -121,6 +123,10 @@ public class ButtonManger : MonoBehaviour
             yield return new WaitForSeconds(0.3f);
 
         }
+        objToSetActive.SetActive(true);
+
+
+
 
 
 
@@ -152,8 +158,8 @@ public class ButtonManger : MonoBehaviour
         foreach (GameObject light in lights)
         {
             light.GetComponent<SpriteRenderer>().color = lightOriginalColor;
-            
-            
+
+
         }
 
         foreach (ButtonPuzzle button in buttons)
@@ -168,6 +174,6 @@ public class ButtonManger : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 }

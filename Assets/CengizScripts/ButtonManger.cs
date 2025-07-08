@@ -122,7 +122,14 @@ public class ButtonManger : MonoBehaviour
             }
             yield return new WaitForSeconds(0.3f);
 
+            foreach (Light2D light in spotlights)
+            {
+                light.color = new Color(1f, 0.243f, 0f);
+            }
+            yield return new WaitForSeconds(0.3f);
         }
+
+
         objToSetActive.SetActive(true);
 
 

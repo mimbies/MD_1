@@ -72,7 +72,10 @@ public class PlacingSkyeSprite : MonoBehaviour
                 isTriggered3 = false;
                 anim.SetBool("isWalking", false);
                 skye.enabled = false;
-                otherSkye.enabled = true;
+                if (otherSkye != null)
+                {
+                    otherSkye.enabled = true;
+                }
             }
         }
     }

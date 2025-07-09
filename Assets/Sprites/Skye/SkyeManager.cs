@@ -46,6 +46,11 @@ public class SkyeManager : MonoBehaviour
         followActive = true;
     }
 
+    public void DisableFollow()
+    {
+        followActive = false;
+    }
+
     private void FollowPlayer()
     {
         var distance = Vector2.Distance(transform.position, target.position);

@@ -15,6 +15,8 @@ public class CollectibleStarsCount : MonoBehaviour
     public GameObject skyeHelper1;
     public GameObject skyeHelper2;
     public GameObject skyeHelper3;
+    
+    public GameObject skye;
 
 
 
@@ -48,6 +50,7 @@ public class CollectibleStarsCount : MonoBehaviour
 
         if (count == 12)
         {
+            skye.GetComponent<SkyeManager>().followActive = true;
             skyeHelper1.SetActive(true);
             OnCollectibleCollected();
         }
@@ -55,6 +58,7 @@ public class CollectibleStarsCount : MonoBehaviour
 
         if (count == 16)
         {
+            skye.GetComponent<SkyeManager>().followActive = false;
             skyeHelper2.SetActive(true);
             OnCollectibleCollected();
         }
@@ -62,6 +66,7 @@ public class CollectibleStarsCount : MonoBehaviour
 
         if (count == 21)
         {
+            skye.GetComponent<SkyeManager>().followActive = true;
             skyeHelper3.SetActive(true);
             OnCollectibleCollected();
         }

@@ -1,11 +1,19 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using System.Collections;
+using System.Collections.Generic;
+
+using UnityEngine.EventSystems;
+
+
 
 public class GDTFadeEffect : MonoBehaviour
 {
 
-    public Object myScene;
+    public MainMenu mMenu;
+
+    public Object nextScene;
 
     public bool playOnAwake = true;
     public Color firstColor;
@@ -120,7 +128,37 @@ public class GDTFadeEffect : MonoBehaviour
             if (finished)
             {
                 performEffect = false;
-                SceneManager.LoadScene(myScene.name);
+
+                if (nextScene.name == "ForestMaze")
+                {
+                    mMenu.loadForestScene();
+
+                }
+                if (nextScene.name == "HouseTwo")
+                {
+                    mMenu.HouseTwoScene();
+
+                }
+                if (nextScene.name == "CatchTheStars")
+                {
+                    mMenu.CatchTheStarsScene();
+
+                }
+                if (nextScene.name == "Buttonpuzzle")
+                {
+                    mMenu.loadButtonPuzzle();
+
+                }
+                if (nextScene.name == "Buttonpuzzle")
+                {
+                    mMenu.loadButtonPuzzle();
+
+                }
+                if (nextScene.name == "HouseEnding")
+                {
+                    mMenu.loadPotionEnd();
+
+                }
 
 
                 if (disableWhenFinish)

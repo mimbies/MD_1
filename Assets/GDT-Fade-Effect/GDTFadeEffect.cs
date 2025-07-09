@@ -160,6 +160,12 @@ public class GDTFadeEffect : MonoBehaviour
 
                 }
 
+                if (nextScene.name == "Credits")
+                {
+                    mMenu.credits();
+
+                }
+
 
                 if (disableWhenFinish)
                 {

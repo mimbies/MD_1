@@ -11,11 +11,21 @@ public class CollectibleStarsCount : MonoBehaviour
     public GameObject objToSetActive;
     public GameObject objToSetActiveTwo;
 
+    //sorry 
+    public GameObject skyeHelper1;
+    public GameObject skyeHelper2;
+    public GameObject skyeHelper3;
+
+
+
     void Awake()
     {
         text = GetComponent<TMPro.TMP_Text>();
+
+
     }
     void Start() => UpdateCount();
+
 
     void OnEnable() => CollectibleStars.OnCollected += OnCollectibleCollected;
     void OnDisable() => CollectibleStars.OnCollected -= OnCollectibleCollected;
@@ -34,6 +44,26 @@ public class CollectibleStarsCount : MonoBehaviour
         if (count == 10)
         {
             objToSetActive.SetActive(true);
+        }
+
+        if (count == 12)
+        {
+            skyeHelper1.SetActive(true);
+            OnCollectibleCollected();
+        }
+
+
+        if (count == 16)
+        {
+            skyeHelper2.SetActive(true);
+            OnCollectibleCollected();
+        }
+
+
+        if (count == 21)
+        {
+            skyeHelper3.SetActive(true);
+            OnCollectibleCollected();
         }
 
         if (count == 25)

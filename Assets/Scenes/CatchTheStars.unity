@@ -1557,28 +1557,28 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CurrentIDCounter: 22
-  json: "{\"Options\":[{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":14}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":8.499985,\"yPos\":1087},\"ID\":11,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"
-    No, I don\u2019t. Not yet. \",\"parentUIDs\":[9],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":13}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":327.499969,\"yPos\":1086},\"ID\":12,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"It\u2019s
-    not about trust. It's just... \",\"parentUIDs\":[9],\"SpeechUID\":-1},{\"Connections\":[],\"EditorInfo\":{\"isRoot\":false,\"xPos\":175.999969,\"yPos\":1982},\"ID\":21,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Start\",\"parentUIDs\":[20],\"SpeechUID\":-1}],\"Parameters\":[],\"SpeechNodes\":[{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":1}],\"EditorInfo\":{\"isRoot\":true,\"xPos\":159.999969,\"yPos\":22},\"ID\":0,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Told
-    you I'd figure it out!\",\"parentUIDs\":[],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Skye\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":2}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":163.499969,\"yPos\":143},\"ID\":1,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"You're
-    actually here. I'm impressed.\",\"parentUIDs\":[0],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Enola\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":3}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":173.499969,\"yPos\":266},\"ID\":2,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"It
+  json: "{\"Options\":[{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":14}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":-90.5000153,\"yPos\":-569.999939},\"ID\":11,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"
+    No, I don\u2019t. Not yet. \",\"parentUIDs\":[9],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":13}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":228.499969,\"yPos\":-570.999939},\"ID\":12,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"It\u2019s
+    not about trust. It's just... \",\"parentUIDs\":[9],\"SpeechUID\":-1},{\"Connections\":[],\"EditorInfo\":{\"isRoot\":false,\"xPos\":76.99997,\"yPos\":325},\"ID\":21,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"(Start)\",\"parentUIDs\":[20],\"SpeechUID\":-1}],\"Parameters\":[],\"SpeechNodes\":[{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":1}],\"EditorInfo\":{\"isRoot\":true,\"xPos\":60.99997,\"yPos\":-1635},\"ID\":0,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Told
+    you I'd figure it out!\",\"parentUIDs\":[],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Skye\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":2}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":64.49997,\"yPos\":-1514},\"ID\":1,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"You're
+    actually here. I'm impressed.\",\"parentUIDs\":[0],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Enola\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":3}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":74.49997,\"yPos\":-1391},\"ID\":2,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"It
     wasn't really hard. The recipe said the stars need to be collected during the
-    4th hour of a full-mooned night..\",\"parentUIDs\":[1],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Skye\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":5}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":168.499969,\"yPos\":378},\"ID\":3,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Figuring
+    4th hour of a full-mooned night.\",\"parentUIDs\":[1],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Skye\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":5}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":69.49997,\"yPos\":-1279},\"ID\":3,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Figuring
     out where I had to go was harder... I followed you home after we met in the maze
-    and came back today to follow you here!\",\"parentUIDs\":[2],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Skye\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":6}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":168.499969,\"yPos\":477},\"ID\":5,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"...\",\"parentUIDs\":[3],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Skye\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":7}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":169.499969,\"yPos\":595},\"ID\":6,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Not
-    in a creepy way though!! I hope...?\",\"parentUIDs\":[5],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Skye\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":8}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":169.499969,\"yPos\":725.000061},\"ID\":7,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"I
-    guess desperare times call for desperate measures.\",\"parentUIDs\":[6],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Enola\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":9}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":172.499969,\"yPos\":847},\"ID\":8,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Anyway...
-    it should start any minute now. It's not easy, so stay back. I'll do it alone.\",\"parentUIDs\":[7],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Enola\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":11},{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":12}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":171.499969,\"yPos\":958.000061},\"ID\":9,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Why?!
-    You don't trust me?\",\"parentUIDs\":[8],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Skye\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":16}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":348.499969,\"yPos\":1183},\"ID\":13,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"It\u2019s
-    not about trust. It's just... it\u2019s easier when I do it alone.\",\"parentUIDs\":[12],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Enola\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":15}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":12.4999847,\"yPos\":1180},\"ID\":14,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"No,
-    I don\u2019t. Not yet. This isn\u2019t a scavenger hunt, it\u2019s serious.\",\"parentUIDs\":[11],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Enola\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":17}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":3.49998474,\"yPos\":1288},\"ID\":15,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Look,
+    and came back today to follow you here.\",\"parentUIDs\":[2],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Skye\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":6}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":69.49997,\"yPos\":-1180},\"ID\":5,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"...\",\"parentUIDs\":[3],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Skye\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":7}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":70.49997,\"yPos\":-1062},\"ID\":6,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Not
+    in a creepy way though!! I hope...?\",\"parentUIDs\":[5],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Skye\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":8}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":70.49997,\"yPos\":-931.9999},\"ID\":7,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"I
+    guess desperate times call for desperate measures.\",\"parentUIDs\":[6],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Enola\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":9}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":73.49997,\"yPos\":-809.999939},\"ID\":8,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Anyway...
+    it should start any minute now. It's not easy, so stay back. I'll do it alone.\",\"parentUIDs\":[7],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Enola\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":11},{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":12}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":72.49997,\"yPos\":-698.9999},\"ID\":9,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Why?!
+    You don't trust me?\",\"parentUIDs\":[8],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Skye\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":16}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":249.499969,\"yPos\":-473.999939},\"ID\":13,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"It\u2019s
+    not about trust. It's just... it\u2019s easier when I do it alone.\",\"parentUIDs\":[12],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Enola\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":15}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":-86.5000153,\"yPos\":-476.999939},\"ID\":14,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"No,
+    I don\u2019t. Not yet. This isn\u2019t a scavenger hunt, it\u2019s serious.\",\"parentUIDs\":[11],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Enola\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":17}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":-95.5000153,\"yPos\":-368.999939},\"ID\":15,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Look,
     I know I\u2019m not a forest witch or whatever, but I\u2019m not an idiot. I
-    can help.\",\"parentUIDs\":[14],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Skye\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":17}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":348.499969,\"yPos\":1285},\"ID\":16,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Is
-    it, though?\",\"parentUIDs\":[13],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Skye\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":18}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":184.499969,\"yPos\":1465},\"ID\":17,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"I
-    know how it works. The stars are fast and it's hard to see where they will land.\",\"parentUIDs\":[15,16],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Enola\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":19}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":162.499969,\"yPos\":1593},\"ID\":18,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"You
+    can help.\",\"parentUIDs\":[14],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Skye\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":17}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":249.499969,\"yPos\":-371.999939},\"ID\":16,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Is
+    it, though?\",\"parentUIDs\":[13],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Skye\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":18}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":85.49997,\"yPos\":-191.999969},\"ID\":17,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"I
+    know how it works. The stars are fast and it's hard to see where they will land.\",\"parentUIDs\":[15,16],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Enola\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":19}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":63.49997,\"yPos\":-63.9999847},\"ID\":18,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"You
     have to use their shadow to calculate their course and catch them mid-air before
-    they vanish.\",\"parentUIDs\":[17],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Enola\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":20}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":167.499969,\"yPos\":1736},\"ID\":19,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"It's
-    tricky. Most of them slip through.\",\"parentUIDs\":[18],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Enola\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":21}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":170.499969,\"yPos\":1858},\"ID\":20,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"...If
+    they vanish.\",\"parentUIDs\":[17],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Enola\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":20}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":68.49997,\"yPos\":79.0000153},\"ID\":19,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"It's
+    tricky. Most of them slip through.\",\"parentUIDs\":[18],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Enola\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":21}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":71.49997,\"yPos\":201},\"ID\":20,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"...If
     you say so...\",\"parentUIDs\":[19],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Skye\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0}]}"
   saveVersion: 110
   DefaultName: Enola
@@ -1609,7 +1609,43 @@ MonoBehaviour:
   EndConversationFont: {fileID: 0}
   Event:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 592271724}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1227847860}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1741245360}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!1 &465544527
 GameObject:
   m_ObjectHideFlags: 0
@@ -19019,7 +19055,7 @@ Tilemap:
       - {fileID: 1941806777, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
       - {fileID: 1565643645, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
       - {fileID: 253084174, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
-      m_AnimationSpeed: 5
+      m_AnimationSpeed: 5.0000005
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: -10, y: -14, z: 0}
@@ -19067,7 +19103,7 @@ Tilemap:
       - {fileID: 1941806777, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
       - {fileID: 1565643645, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
       - {fileID: 253084174, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
-      m_AnimationSpeed: 5.0000005
+      m_AnimationSpeed: 5
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: -6, y: -14, z: 0}
@@ -19103,7 +19139,7 @@ Tilemap:
       - {fileID: 1941806777, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
       - {fileID: 1565643645, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
       - {fileID: 253084174, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
-      m_AnimationSpeed: 5.0000005
+      m_AnimationSpeed: 5
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: -3, y: -14, z: 0}
@@ -19655,7 +19691,7 @@ Tilemap:
       - {fileID: 1941806777, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
       - {fileID: 1565643645, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
       - {fileID: 253084174, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
-      m_AnimationSpeed: 5
+      m_AnimationSpeed: 5.0000005
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: 8, y: -13, z: 0}
@@ -19907,7 +19943,7 @@ Tilemap:
       - {fileID: 1941806777, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
       - {fileID: 1565643645, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
       - {fileID: 253084174, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
-      m_AnimationSpeed: 5.0000005
+      m_AnimationSpeed: 5
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: -6, y: -12, z: 0}
@@ -20111,7 +20147,7 @@ Tilemap:
       - {fileID: 1941806777, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
       - {fileID: 1565643645, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
       - {fileID: 253084174, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
-      m_AnimationSpeed: 5
+      m_AnimationSpeed: 5.0000005
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: 11, y: -12, z: 0}
@@ -20375,7 +20411,7 @@ Tilemap:
       - {fileID: 1941806777, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
       - {fileID: 1565643645, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
       - {fileID: 253084174, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
-      m_AnimationSpeed: 5.0000005
+      m_AnimationSpeed: 5
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: -2, y: -11, z: 0}
@@ -20387,7 +20423,7 @@ Tilemap:
       - {fileID: 1941806777, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
       - {fileID: 1565643645, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
       - {fileID: 253084174, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
-      m_AnimationSpeed: 5
+      m_AnimationSpeed: 5.0000005
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: -1, y: -11, z: 0}
@@ -20471,7 +20507,7 @@ Tilemap:
       - {fileID: 1941806777, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
       - {fileID: 1565643645, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
       - {fileID: 253084174, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
-      m_AnimationSpeed: 5
+      m_AnimationSpeed: 5.0000005
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: 6, y: -11, z: 0}
@@ -20579,7 +20615,7 @@ Tilemap:
       - {fileID: 1941806777, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
       - {fileID: 1565643645, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
       - {fileID: 253084174, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
-      m_AnimationSpeed: 5.0000005
+      m_AnimationSpeed: 5
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: 15, y: -11, z: 0}
@@ -20723,7 +20759,7 @@ Tilemap:
       - {fileID: 1941806777, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
       - {fileID: 1565643645, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
       - {fileID: 253084174, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
-      m_AnimationSpeed: 5.0000005
+      m_AnimationSpeed: 5
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: -8, y: -10, z: 0}
@@ -22115,7 +22151,7 @@ Tilemap:
       - {fileID: 1941806777, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
       - {fileID: 1565643645, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
       - {fileID: 253084174, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
-      m_AnimationSpeed: 5
+      m_AnimationSpeed: 5.0000005
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: 3, y: -7, z: 0}
@@ -22295,7 +22331,7 @@ Tilemap:
       - {fileID: 1941806777, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
       - {fileID: 1565643645, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
       - {fileID: 253084174, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
-      m_AnimationSpeed: 5.0000005
+      m_AnimationSpeed: 5
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: -17, y: -6, z: 0}
@@ -22859,7 +22895,7 @@ Tilemap:
       - {fileID: 1941806777, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
       - {fileID: 1565643645, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
       - {fileID: 253084174, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
-      m_AnimationSpeed: 5.0000005
+      m_AnimationSpeed: 5
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: -5, y: -5, z: 0}
@@ -22907,7 +22943,7 @@ Tilemap:
       - {fileID: 1941806777, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
       - {fileID: 1565643645, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
       - {fileID: 253084174, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
-      m_AnimationSpeed: 5
+      m_AnimationSpeed: 5.0000005
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: -1, y: -5, z: 0}
@@ -23375,7 +23411,7 @@ Tilemap:
       - {fileID: 1941806777, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
       - {fileID: 1565643645, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
       - {fileID: 253084174, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
-      m_AnimationSpeed: 5
+      m_AnimationSpeed: 5.0000005
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: 3, y: -4, z: 0}
@@ -23495,7 +23531,7 @@ Tilemap:
       - {fileID: 1941806777, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
       - {fileID: 1565643645, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
       - {fileID: 253084174, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
-      m_AnimationSpeed: 5.0000005
+      m_AnimationSpeed: 5
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: 13, y: -4, z: 0}
@@ -23723,7 +23759,7 @@ Tilemap:
       - {fileID: 1941806777, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
       - {fileID: 1565643645, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
       - {fileID: 253084174, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
-      m_AnimationSpeed: 5
+      m_AnimationSpeed: 5.0000005
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: -3, y: -3, z: 0}
@@ -25367,7 +25403,7 @@ Tilemap:
       - {fileID: 1941806777, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
       - {fileID: 1565643645, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
       - {fileID: 253084174, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
-      m_AnimationSpeed: 5
+      m_AnimationSpeed: 5.0000005
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: -6, y: 1, z: 0}
@@ -25655,7 +25691,7 @@ Tilemap:
       - {fileID: 1941806777, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
       - {fileID: 1565643645, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
       - {fileID: 253084174, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
-      m_AnimationSpeed: 5
+      m_AnimationSpeed: 5.0000005
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: -17, y: 2, z: 0}
@@ -25751,7 +25787,7 @@ Tilemap:
       - {fileID: 1941806777, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
       - {fileID: 1565643645, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
       - {fileID: 253084174, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
-      m_AnimationSpeed: 5
+      m_AnimationSpeed: 5.0000005
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: -9, y: 2, z: 0}
@@ -25955,7 +25991,7 @@ Tilemap:
       - {fileID: 1941806777, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
       - {fileID: 1565643645, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
       - {fileID: 253084174, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
-      m_AnimationSpeed: 5.0000005
+      m_AnimationSpeed: 5
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: 8, y: 2, z: 0}
@@ -26423,7 +26459,7 @@ Tilemap:
       - {fileID: 1941806777, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
       - {fileID: 1565643645, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
       - {fileID: 253084174, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
-      m_AnimationSpeed: 5
+      m_AnimationSpeed: 5.0000005
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: 12, y: 3, z: 0}
@@ -26447,7 +26483,7 @@ Tilemap:
       - {fileID: 1941806777, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
       - {fileID: 1565643645, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
       - {fileID: 253084174, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
-      m_AnimationSpeed: 5.0000005
+      m_AnimationSpeed: 5
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: 14, y: 3, z: 0}
@@ -26699,7 +26735,7 @@ Tilemap:
       - {fileID: 1941806777, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
       - {fileID: 1565643645, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
       - {fileID: 253084174, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
-      m_AnimationSpeed: 5
+      m_AnimationSpeed: 5.0000005
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: 0, y: 4, z: 0}
@@ -26927,7 +26963,7 @@ Tilemap:
       - {fileID: 1941806777, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
       - {fileID: 1565643645, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
       - {fileID: 253084174, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
-      m_AnimationSpeed: 5
+      m_AnimationSpeed: 5.0000005
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: -16, y: 5, z: 0}
@@ -26975,7 +27011,7 @@ Tilemap:
       - {fileID: 1941806777, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
       - {fileID: 1565643645, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
       - {fileID: 253084174, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
-      m_AnimationSpeed: 5.0000005
+      m_AnimationSpeed: 5
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: -12, y: 5, z: 0}
@@ -27167,7 +27203,7 @@ Tilemap:
       - {fileID: 1941806777, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
       - {fileID: 1565643645, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
       - {fileID: 253084174, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
-      m_AnimationSpeed: 5
+      m_AnimationSpeed: 5.0000005
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: 4, y: 5, z: 0}
@@ -27587,7 +27623,7 @@ Tilemap:
       - {fileID: 1941806777, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
       - {fileID: 1565643645, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
       - {fileID: 253084174, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
-      m_AnimationSpeed: 5
+      m_AnimationSpeed: 5.0000005
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: 4, y: 6, z: 0}
@@ -28559,7 +28595,7 @@ Tilemap:
       - {fileID: 1941806777, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
       - {fileID: 1565643645, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
       - {fileID: 253084174, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
-      m_AnimationSpeed: 5.0000005
+      m_AnimationSpeed: 5
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: 15, y: 8, z: 0}
@@ -28847,7 +28883,7 @@ Tilemap:
       - {fileID: 1941806777, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
       - {fileID: 1565643645, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
       - {fileID: 253084174, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
-      m_AnimationSpeed: 5.0000005
+      m_AnimationSpeed: 5
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: 4, y: 9, z: 0}
@@ -28883,7 +28919,7 @@ Tilemap:
       - {fileID: 1941806777, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
       - {fileID: 1565643645, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
       - {fileID: 253084174, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
-      m_AnimationSpeed: 5.0000005
+      m_AnimationSpeed: 5
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: 7, y: 9, z: 0}
@@ -29135,7 +29171,7 @@ Tilemap:
       - {fileID: 1941806777, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
       - {fileID: 1565643645, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
       - {fileID: 253084174, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
-      m_AnimationSpeed: 5.0000005
+      m_AnimationSpeed: 5
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: -7, y: 10, z: 0}
@@ -29363,7 +29399,7 @@ Tilemap:
       - {fileID: 1941806777, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
       - {fileID: 1565643645, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
       - {fileID: 253084174, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
-      m_AnimationSpeed: 5
+      m_AnimationSpeed: 5.0000005
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: 12, y: 10, z: 0}
@@ -29699,7 +29735,7 @@ Tilemap:
       - {fileID: 1941806777, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
       - {fileID: 1565643645, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
       - {fileID: 253084174, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
-      m_AnimationSpeed: 5
+      m_AnimationSpeed: 5.0000005
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: 5, y: 11, z: 0}
@@ -29771,7 +29807,7 @@ Tilemap:
       - {fileID: 1941806777, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
       - {fileID: 1565643645, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
       - {fileID: 253084174, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
-      m_AnimationSpeed: 5.0000005
+      m_AnimationSpeed: 5
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: 11, y: 11, z: 0}
@@ -29891,7 +29927,7 @@ Tilemap:
       - {fileID: -138348401, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
       - {fileID: -1612513966, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
       - {fileID: 1680832445, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
-      m_AnimationSpeed: 5
+      m_AnimationSpeed: 5.0000005
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: -14, y: 12, z: 0}
@@ -30143,7 +30179,7 @@ Tilemap:
       - {fileID: -138348401, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
       - {fileID: -1612513966, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
       - {fileID: 1680832445, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
-      m_AnimationSpeed: 5.0000005
+      m_AnimationSpeed: 5
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: 7, y: 12, z: 0}
@@ -30251,7 +30287,7 @@ Tilemap:
       - {fileID: -138348401, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
       - {fileID: -1612513966, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
       - {fileID: 1680832445, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
-      m_AnimationSpeed: 5
+      m_AnimationSpeed: 5.0000005
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: 16, y: 12, z: 0}
@@ -30439,15 +30475,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CurrentIDCounter: 26
-  json: '{"Options":[{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":335,"yPos":402},"ID":25,"ParamActions":[],"TMPFontGUID":null,"Text":"(Leave.)","parentUIDs":[24],"SpeechUID":-1}],"Parameters":[],"SpeechNodes":[{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":1}],"EditorInfo":{"isRoot":true,"xPos":309,"yPos":-660},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"You
-    were... surprisingly decent at that.","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Enola","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":2}],"EditorInfo":{"isRoot":false,"xPos":310.5,"yPos":-539},"ID":1,"ParamActions":[],"TMPFontGUID":null,"Text":"I''m
-    full of surprises.","parentUIDs":[0],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Skye","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":3}],"EditorInfo":{"isRoot":false,"xPos":320.5,"yPos":-416},"ID":2,"ParamActions":[],"TMPFontGUID":null,"Text":"Nice
-    to hear you admit you needed help, though.","parentUIDs":[1],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Skye","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":5}],"EditorInfo":{"isRoot":false,"xPos":314.5,"yPos":-304},"ID":3,"ParamActions":[],"TMPFontGUID":null,"Text":"I
-    didn''t admit anything! I just... gave you a chance.","parentUIDs":[2],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Enola","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":21}],"EditorInfo":{"isRoot":false,"xPos":315.5,"yPos":-205},"ID":5,"ParamActions":[],"TMPFontGUID":null,"Text":"That''s
-    enough for me.","parentUIDs":[3],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Skye","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":22}],"EditorInfo":{"isRoot":false,"xPos":315.6667,"yPos":-93.333374},"ID":21,"ParamActions":[],"TMPFontGUID":null,"Text":"While
-    we''re at it, do you want to come with me to get the last ingredient?","parentUIDs":[5],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Enola","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":23}],"EditorInfo":{"isRoot":false,"xPos":316.6667,"yPos":35.666626},"ID":22,"ParamActions":[],"TMPFontGUID":null,"Text":"We
-    only need a handful of salt crystals and I know exactly where to get them.","parentUIDs":[21],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Enola","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":24}],"EditorInfo":{"isRoot":false,"xPos":314.6667,"yPos":160.666626},"ID":23,"ParamActions":[],"TMPFontGUID":null,"Text":"It''s
-    kind of a creepy cave though, so feel free to skip it...","parentUIDs":[22],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Enola","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":25}],"EditorInfo":{"isRoot":false,"xPos":318.6667,"yPos":287.666748},"ID":24,"ParamActions":[],"TMPFontGUID":null,"Text":"Look
+  json: '{"Options":[{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":171.999969,"yPos":328},"ID":25,"ParamActions":[],"TMPFontGUID":null,"Text":"(Leave)","parentUIDs":[24],"SpeechUID":-1}],"Parameters":[],"SpeechNodes":[{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":1}],"EditorInfo":{"isRoot":true,"xPos":145.999969,"yPos":-734},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"You
+    were... surprisingly decent at that.","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Enola","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":2}],"EditorInfo":{"isRoot":false,"xPos":147.499969,"yPos":-612.999939},"ID":1,"ParamActions":[],"TMPFontGUID":null,"Text":"I''m
+    full of surprises.","parentUIDs":[0],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Skye","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":3}],"EditorInfo":{"isRoot":false,"xPos":157.499969,"yPos":-489.999939},"ID":2,"ParamActions":[],"TMPFontGUID":null,"Text":"Nice
+    to hear you admit you needed help, though.","parentUIDs":[1],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Skye","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":5}],"EditorInfo":{"isRoot":false,"xPos":151.499969,"yPos":-377.999939},"ID":3,"ParamActions":[],"TMPFontGUID":null,"Text":"I
+    didn''t admit anything! I just... gave you a chance.","parentUIDs":[2],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Enola","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":21}],"EditorInfo":{"isRoot":false,"xPos":152.499969,"yPos":-278.999939},"ID":5,"ParamActions":[],"TMPFontGUID":null,"Text":"That''s
+    enough for me.","parentUIDs":[3],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Skye","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":22}],"EditorInfo":{"isRoot":false,"xPos":152.666656,"yPos":-167.333344},"ID":21,"ParamActions":[],"TMPFontGUID":null,"Text":"While
+    we''re at it, do you want to come with me to get the last ingredient?","parentUIDs":[5],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Enola","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":23}],"EditorInfo":{"isRoot":false,"xPos":153.666656,"yPos":-38.33335},"ID":22,"ParamActions":[],"TMPFontGUID":null,"Text":"We
+    only need a handful of salt crystals and I know exactly where to get them.","parentUIDs":[21],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Enola","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":24}],"EditorInfo":{"isRoot":false,"xPos":151.666656,"yPos":86.66663},"ID":23,"ParamActions":[],"TMPFontGUID":null,"Text":"It''s
+    kind of a creepy cave though, so feel free to skip it...","parentUIDs":[22],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Enola","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":25}],"EditorInfo":{"isRoot":false,"xPos":155.666656,"yPos":213.666748},"ID":24,"ParamActions":[],"TMPFontGUID":null,"Text":"Look
     at you acting all casual about inviting me. You''re not getting rid of me now,
     let''s go!","parentUIDs":[23],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Skye","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0}]}'
   saveVersion: 110
@@ -36805,7 +36841,7 @@ Tilemap:
       - {fileID: 286914302, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
       - {fileID: 1869215013, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
       - {fileID: 1519017607, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
-      m_AnimationSpeed: 3.0000002
+      m_AnimationSpeed: 3
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: 2, y: -9, z: 0}
@@ -36817,7 +36853,7 @@ Tilemap:
       - {fileID: 286914302, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
       - {fileID: 1869215013, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
       - {fileID: 1519017607, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
-      m_AnimationSpeed: 3.0000002
+      m_AnimationSpeed: 3
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: 3, y: -9, z: 0}
@@ -36913,7 +36949,7 @@ Tilemap:
       - {fileID: 286914302, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
       - {fileID: 1869215013, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
       - {fileID: 1519017607, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
-      m_AnimationSpeed: 3.0000002
+      m_AnimationSpeed: 3
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: 6, y: -8, z: 0}
@@ -36925,7 +36961,7 @@ Tilemap:
       - {fileID: 286914302, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
       - {fileID: 1869215013, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
       - {fileID: 1519017607, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
-      m_AnimationSpeed: 3
+      m_AnimationSpeed: 3.0000002
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: 7, y: -8, z: 0}
@@ -37093,7 +37129,7 @@ Tilemap:
       - {fileID: 1174560314, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
       - {fileID: 690318226, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
       - {fileID: -1399414062, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
-      m_AnimationSpeed: 3.0000002
+      m_AnimationSpeed: 3
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: -11, y: -3, z: 0}
@@ -37105,7 +37141,7 @@ Tilemap:
       - {fileID: -2067869858, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
       - {fileID: -2110631901, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
       - {fileID: 1692604525, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
-      m_AnimationSpeed: 3.0000002
+      m_AnimationSpeed: 3
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: 10, y: -3, z: 0}
@@ -37189,7 +37225,7 @@ Tilemap:
       - {fileID: 1174560314, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
       - {fileID: 690318226, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
       - {fileID: -1399414062, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
-      m_AnimationSpeed: 3.0000002
+      m_AnimationSpeed: 3
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: -11, y: 1, z: 0}
@@ -37273,7 +37309,7 @@ Tilemap:
       - {fileID: -2067869858, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
       - {fileID: -2110631901, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
       - {fileID: 1692604525, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
-      m_AnimationSpeed: 3.0000002
+      m_AnimationSpeed: 3
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: 10, y: 4, z: 0}
@@ -37297,7 +37333,7 @@ Tilemap:
       - {fileID: 1242976295, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
       - {fileID: 1683963777, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
       - {fileID: -1882758473, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
-      m_AnimationSpeed: 3.0000002
+      m_AnimationSpeed: 3
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: -10, y: 5, z: 0}
@@ -37333,7 +37369,7 @@ Tilemap:
       - {fileID: -1855022521, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
       - {fileID: -928876690, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
       - {fileID: 1546557923, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
-      m_AnimationSpeed: 3
+      m_AnimationSpeed: 3.0000002
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: 9, y: 5, z: 0}
@@ -37429,7 +37465,7 @@ Tilemap:
       - {fileID: 467648429, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
       - {fileID: 1298242254, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
       - {fileID: -941883767, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
-      m_AnimationSpeed: 3.0000002
+      m_AnimationSpeed: 3
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: -3, y: 6, z: 0}
@@ -37489,7 +37525,7 @@ Tilemap:
       - {fileID: 467648429, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
       - {fileID: 1298242254, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
       - {fileID: -941883767, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
-      m_AnimationSpeed: 3
+      m_AnimationSpeed: 3.0000002
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: 2, y: 6, z: 0}
@@ -37513,7 +37549,7 @@ Tilemap:
       - {fileID: 467648429, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
       - {fileID: 1298242254, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
       - {fileID: -941883767, guid: 109dea728152eef4ebe292b3de4bf4f6, type: 3}
-      m_AnimationSpeed: 3.0000002
+      m_AnimationSpeed: 3
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: 4, y: 6, z: 0}
@@ -44334,17 +44370,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CurrentIDCounter: 24
-  json: '{"Options":[{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":85.99997,"yPos":259},"ID":21,"ParamActions":[],"TMPFontGUID":null,"Text":"Keep
-    going","parentUIDs":[8],"SpeechUID":-1}],"Parameters":[],"SpeechNodes":[{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":1}],"EditorInfo":{"isRoot":true,"xPos":78.99997,"yPos":-746},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"This
-    looks... frustrating...","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Skye","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":23}],"EditorInfo":{"isRoot":false,"xPos":-57.50003,"yPos":-582.9999},"ID":1,"ParamActions":[],"TMPFontGUID":null,"Text":"Ugh,
-    they''re faster than last time! I''m missing too many.","parentUIDs":[0],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Enola","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":3}],"EditorInfo":{"isRoot":false,"xPos":79.49997,"yPos":-444.999878},"ID":2,"ParamActions":[],"TMPFontGUID":null,"Text":"So,
-    let me help! I''ve got good reflexes and two fully functioning hands!","parentUIDs":[23],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Skye","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":5}],"EditorInfo":{"isRoot":false,"xPos":74.49997,"yPos":-333},"ID":3,"ParamActions":[],"TMPFontGUID":null,"Text":"You
-    don''t know how they move. It takes timing...","parentUIDs":[2],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Enola","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":6}],"EditorInfo":{"isRoot":false,"xPos":74.49997,"yPos":-233.999985},"ID":5,"ParamActions":[],"TMPFontGUID":null,"Text":"Then
+  json: '{"Options":[{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":156.999969,"yPos":306},"ID":21,"ParamActions":[],"TMPFontGUID":null,"Text":"(Keep
+    going)","parentUIDs":[8],"SpeechUID":-1}],"Parameters":[],"SpeechNodes":[{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":1}],"EditorInfo":{"isRoot":true,"xPos":149.999969,"yPos":-698.999939},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"This
+    looks... frustrating...","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Skye","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":23}],"EditorInfo":{"isRoot":false,"xPos":13.4999695,"yPos":-535.9998},"ID":1,"ParamActions":[],"TMPFontGUID":null,"Text":"Ugh,
+    they''re faster than last time! I''m missing too many.","parentUIDs":[0],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Enola","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":3}],"EditorInfo":{"isRoot":false,"xPos":150.499969,"yPos":-397.999878},"ID":2,"ParamActions":[],"TMPFontGUID":null,"Text":"So,
+    let me help! I''ve got good reflexes and two fully functioning hands.","parentUIDs":[23],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Skye","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":5}],"EditorInfo":{"isRoot":false,"xPos":145.499969,"yPos":-286},"ID":3,"ParamActions":[],"TMPFontGUID":null,"Text":"You
+    don''t know how they move. It takes timing...","parentUIDs":[2],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Enola","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":6}],"EditorInfo":{"isRoot":false,"xPos":145.499969,"yPos":-186.999969},"ID":5,"ParamActions":[],"TMPFontGUID":null,"Text":"Then
     teach me! Or don''t... but either way, I''m not going to stand here while you
-    embarass yourself.","parentUIDs":[3],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Skye","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":7}],"EditorInfo":{"isRoot":false,"xPos":75.49997,"yPos":-115.999977},"ID":6,"ParamActions":[],"TMPFontGUID":null,"Text":"We''re
-    in this together, remember?","parentUIDs":[5],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Skye","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":8}],"EditorInfo":{"isRoot":false,"xPos":75.49997,"yPos":14.0000153},"ID":7,"ParamActions":[],"TMPFontGUID":null,"Text":"Fine,
-    but if you mess up, I''m blaming you. Forever.","parentUIDs":[6],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Enola","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":21}],"EditorInfo":{"isRoot":false,"xPos":78.49997,"yPos":136.000015},"ID":8,"ParamActions":[],"TMPFontGUID":null,"Text":"Deal!
-    I thrive under passive-aggressive pressure.","parentUIDs":[7],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Enola","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":2}],"EditorInfo":{"isRoot":false,"xPos":182.999969,"yPos":-562.9999},"ID":23,"ParamActions":[],"TMPFontGUID":null,"Text":"If
+    embarass yourself.","parentUIDs":[3],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Skye","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":7}],"EditorInfo":{"isRoot":false,"xPos":146.499969,"yPos":-68.9999847},"ID":6,"ParamActions":[],"TMPFontGUID":null,"Text":"We''re
+    in this together, remember?","parentUIDs":[5],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Skye","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":8}],"EditorInfo":{"isRoot":false,"xPos":146.499969,"yPos":61.0000153},"ID":7,"ParamActions":[],"TMPFontGUID":null,"Text":"Fine,
+    but if you mess up, I''m blaming you. Forever.","parentUIDs":[6],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Enola","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":21}],"EditorInfo":{"isRoot":false,"xPos":149.499969,"yPos":183},"ID":8,"ParamActions":[],"TMPFontGUID":null,"Text":"Deal!
+    I thrive under passive-aggressive pressure.","parentUIDs":[7],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Enola","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":2}],"EditorInfo":{"isRoot":false,"xPos":253.999969,"yPos":-515.9998},"ID":23,"ParamActions":[],"TMPFontGUID":null,"Text":"If
     I keep this up, it''ll be over before I can catch enough stars.","parentUIDs":[1],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Enola","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0}]}'
   saveVersion: 110
   DefaultName: Enola
@@ -44366,29 +44402,17 @@ MonoBehaviour:
   Event:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1545879435}
-        m_TargetAssemblyTypeName: PlayerMovement, Assembly-CSharp
-        m_MethodName: increaseMovementSpeed
-        m_Mode: 1
+      - m_Target: {fileID: 592271725}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 534629313}
-        m_TargetAssemblyTypeName: SkyeManager, Assembly-CSharp
-        m_MethodName: DisableFollow
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
+          m_BoolArgument: 1
         m_CallState: 2
 --- !u!4 &1947575846
 Transform:

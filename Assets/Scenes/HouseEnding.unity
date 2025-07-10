@@ -2480,8 +2480,8 @@ PrefabInstance:
       objectReference: {fileID: 102900000, guid: a1b0d187740a7274fae59fbb45b196ea, type: 3}
     - target: {fileID: 4340539383612703545, guid: ef9bab49b1e42aa4eba41b12071319e4, type: 3}
       propertyPath: nextScene
-      value: 
-      objectReference: {fileID: 102900000, guid: a1b0d187740a7274fae59fbb45b196ea, type: 3}
+      value: Credits
+      objectReference: {fileID: 0}
     - target: {fileID: 4340539383612703545, guid: ef9bab49b1e42aa4eba41b12071319e4, type: 3}
       propertyPath: initialDelay
       value: 0

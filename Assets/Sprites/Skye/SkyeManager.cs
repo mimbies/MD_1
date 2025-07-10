@@ -41,6 +41,11 @@ public class SkyeManager : MonoBehaviour
         }
     }
 
+    public void SetTarget(Transform newTarget)
+    {
+        target = newTarget;
+    }
+
     public void EnableFollow()
     {
         followActive = true;

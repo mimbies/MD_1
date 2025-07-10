@@ -21,6 +21,8 @@ public class CollectibleStarsCount : MonoBehaviour
     public Transform skyeRunTarget;
     public Transform enola;
 
+    public bool countingEnabled = true;
+
 
     void Awake()
     {
@@ -36,9 +38,21 @@ public class CollectibleStarsCount : MonoBehaviour
 
     void OnCollectibleCollected()
     {
-        count++;
-        UpdateCount();
+        if (countingEnabled)
+        {
+            count++;
+            UpdateCount();
+        }
+    }
 
+    public void EnableCount()
+    {
+        countingEnabled = true;
+    }
+
+    public void DisableCount()
+    {
+        countingEnabled = false;
     }
 
     void UpdateCount()

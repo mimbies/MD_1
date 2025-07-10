@@ -11,7 +11,7 @@ public class SkyeManager : MonoBehaviour
     private SpriteRenderer sprite;
 
     [SerializeField] private float speed = 4;
-    [SerializeField] private Transform target;
+    [SerializeField] public Transform target;
     [SerializeField] public bool followActive = false;
     private Vector3 previousPosition;
 
@@ -39,6 +39,11 @@ public class SkyeManager : MonoBehaviour
         {
             sprite.sortingOrder = target.GetComponent<SpriteRenderer>().sortingOrder - 1;
         }
+    }
+
+    public void SetTarget(Transform newTarget)
+    {
+        target = newTarget;
     }
 
     public void EnableFollow()

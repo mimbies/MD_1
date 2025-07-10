@@ -17,13 +17,15 @@ public class CollectibleStarsCount : MonoBehaviour
     public GameObject skyeHelper3;
     
     public GameObject skye;
-
+    private SkyeManager skyeManager;
+    public Transform skyeRunTarget;
+    public Transform enola;
 
 
     void Awake()
     {
         text = GetComponent<TMPro.TMP_Text>();
-
+        skyeManager = skye.GetComponent<SkyeManager>();
 
     }
     void Start() => UpdateCount();
@@ -50,25 +52,41 @@ public class CollectibleStarsCount : MonoBehaviour
 
         if (count == 12)
         {
-            skye.GetComponent<SkyeManager>().followActive = true;
+            skyeManager.target = skyeRunTarget;
+            skyeManager.EnableFollow();
             skyeHelper1.SetActive(true);
-            OnCollectibleCollected();
         }
 
+        if (count == 13)
+        {
+            OnCollectibleCollected();
+            skyeManager.target = enola;
+        }
 
         if (count == 16)
         {
-            skye.GetComponent<SkyeManager>().followActive = false;
+            skyeRunTarget.position = new Vector3(-5.74f, 1.44f, 0);
+            skyeManager.target = skyeRunTarget;
             skyeHelper2.SetActive(true);
-            OnCollectibleCollected();
         }
 
+        if (count == 17)
+        {
+            OnCollectibleCollected();
+            skyeManager.target = enola;
+        }
 
         if (count == 21)
         {
-            skye.GetComponent<SkyeManager>().followActive = true;
+            skyeRunTarget.position = new Vector3(-6.89f, -4f, 0);
+            skyeManager.target = skyeRunTarget;
             skyeHelper3.SetActive(true);
+        }
+
+        if (count == 22)
+        {
             OnCollectibleCollected();
+            skyeManager.target = enola;
         }
 
         if (count == 25)

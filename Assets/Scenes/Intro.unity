@@ -2398,8 +2398,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4340539383612703545, guid: ef9bab49b1e42aa4eba41b12071319e4, type: 3}
       propertyPath: nextScene
-      value: 
-      objectReference: {fileID: 102900000, guid: cea4ab1c896bd47489ad396ccf226a6d, type: 3}
+      value: ForestMaze
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: ef9bab49b1e42aa4eba41b12071319e4, type: 3}

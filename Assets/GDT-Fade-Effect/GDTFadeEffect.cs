@@ -13,7 +13,7 @@ public class GDTFadeEffect : MonoBehaviour
 
     public MainMenu mMenu;
 
-    public Object nextScene;
+    public string nextScene;
 
     public bool playOnAwake = true;
     public Color firstColor;
@@ -129,38 +129,34 @@ public class GDTFadeEffect : MonoBehaviour
             {
                 performEffect = false;
 
-                if (nextScene.name == "ForestMaze")
+                if (nextScene == "ForestMaze")
                 {
                     mMenu.loadForestScene();
 
                 }
-                if (nextScene.name == "HouseTwo")
+                if (nextScene == "HouseTwo")
                 {
                     mMenu.HouseTwoScene();
 
                 }
-                if (nextScene.name == "CatchTheStars")
+                if (nextScene == "CatchTheStars")
                 {
                     mMenu.CatchTheStarsScene();
 
                 }
-                if (nextScene.name == "Buttonpuzzle")
+                if (nextScene == "Buttonpuzzle")
                 {
                     mMenu.loadButtonPuzzle();
 
                 }
-                if (nextScene.name == "Buttonpuzzle")
-                {
-                    mMenu.loadButtonPuzzle();
-
-                }
-                if (nextScene.name == "HouseEnding")
+                
+                if (nextScene == "HouseEnding")
                 {
                     mMenu.loadPotionEnd();
 
                 }
 
-                if (nextScene.name == "Credits")
+                if (nextScene == "Credits")
                 {
                     mMenu.credits();
 

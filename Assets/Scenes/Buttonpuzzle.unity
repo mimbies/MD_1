@@ -21886,8 +21886,8 @@ PrefabInstance:
       objectReference: {fileID: 102900000, guid: fe2058b2e5e8d184b9050c5e39dd482e, type: 3}
     - target: {fileID: 4340539383612703545, guid: ef9bab49b1e42aa4eba41b12071319e4, type: 3}
       propertyPath: nextScene
-      value: 
-      objectReference: {fileID: 102900000, guid: fe2058b2e5e8d184b9050c5e39dd482e, type: 3}
+      value: HouseEnding
+      objectReference: {fileID: 0}
     - target: {fileID: 4340539383612703545, guid: ef9bab49b1e42aa4eba41b12071319e4, type: 3}
       propertyPath: initialDelay
       value: 0

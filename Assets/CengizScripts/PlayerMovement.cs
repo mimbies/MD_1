@@ -108,10 +108,10 @@ public class PlayerMovement : MonoBehaviour
             //----------------------------------------------------------
         }
 
-        if (Input.GetKey(KeyCode.Escape))
-        {
-            Application.Quit();
-        }
+        //if (Input.GetKey(KeyCode.Escape))
+        //{
+        //    Application.Quit();
+        //}
         //if (input.getbuttondown(keycode.space))
         //{
         //    if (!pause)

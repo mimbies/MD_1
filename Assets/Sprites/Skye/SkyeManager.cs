@@ -11,7 +11,7 @@ public class SkyeManager : MonoBehaviour
     private SpriteRenderer sprite;
 
     [SerializeField] private float speed = 4;
-    [SerializeField] private Transform target;
+    [SerializeField] public Transform target;
     [SerializeField] public bool followActive = false;
     private Vector3 previousPosition;
 
@@ -41,9 +41,19 @@ public class SkyeManager : MonoBehaviour
         }
     }
 
+    public void SetTarget(Transform newTarget)
+    {
+        target = newTarget;
+    }
+
     public void EnableFollow()
     {
         followActive = true;
+    }
+
+    public void DisableFollow()
+    {
+        followActive = false;
     }
 
     private void FollowPlayer()

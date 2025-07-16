@@ -18,6 +18,7 @@ public class ButtonPuzzle : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        
         sr = GetComponent<SpriteRenderer>();
         originalColor = sr.color;
         manager = FindObjectOfType<ButtonManger>();
@@ -39,9 +40,15 @@ public class ButtonPuzzle : MonoBehaviour
     }
     private IEnumerator FlashRedThenReset()
     {
+        Collider2D col = GetComponent<Collider2D>();
+        if (col != null) col.enabled = false;
+
         sr.color = Color.red;
         yield return new WaitForSeconds(1f);
+
+        if (col != null) col.enabled = true;
         sr.color = originalColor;
+
     }
     void OnTriggerEnter2D(Collider2D other)
     {

@@ -137,7 +137,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5165446229920257557, guid: 0138e8d0041cfac4da8811c6744154a5, type: 3}
       propertyPath: smoothspeed
-      value: 0.13
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5165446229920257557, guid: 0138e8d0041cfac4da8811c6744154a5, type: 3}
       propertyPath: dustEffectPrefab

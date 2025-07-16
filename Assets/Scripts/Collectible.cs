@@ -18,7 +18,7 @@ public class Collectible : MonoBehaviour
 
 
     public static int total = 0;
-
+    private bool hasBeenCollected = false;
 
     void Awake() => total++;
 
@@ -52,8 +52,9 @@ public class Collectible : MonoBehaviour
     void Update()
     {
         {
-            if (Input.GetButtonDown("Submit") && collectingAllowed)
+            if (Input.GetButtonDown("Submit") && collectingAllowed && !hasBeenCollected)
             {
+                hasBeenCollected = true;
                 audioSource.Play();
                 Debug.Log("Detected KeyInput");
                 OnCollected?.Invoke();
